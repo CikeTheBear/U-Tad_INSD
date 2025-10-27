@@ -1,0 +1,30 @@
+<!DOCTYPE fundamentos SYSTEM "fundamentos.dtd">
+
+<fundamentos>
+    <fundamento>
+        <titulo>Fundamentos del desarrollo web</titulo>
+        <dia>Viernes</dia>
+        <hora>19:00</hora>
+        <horas>20</horas>
+    </fundamento>
+
+    <profesora>
+        <nombre>Natalia</nombre>
+        <apellido1>Matarranz</apellido1>
+        <apellido2>Gonzalez</apellido2>
+    </profesora>
+
+    <alumnos>
+        <alumno>
+            <nombre>Carlos</nombre>
+            <apellido1>De Almeida</apellido1>
+            <apellido2>Romanelli</apellido2>
+        </alumno>
+        
+        <alumna>
+            <nombre>Giovanna</nombre>
+            <apellido1>Amador</apellido1>
+            <apellido2>Morillo</apellido2>
+        </alumna>
+    </alumnos>
+</fundamentos>

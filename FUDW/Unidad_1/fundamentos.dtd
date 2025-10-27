@@ -1,0 +1,16 @@
+<!ELEMENT fundamentos (fundamento, profesora, alumnos)>
+
+<!ELEMENT fundamento (titulo, dia, hora, horas)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT horas (#PCDATA)>
+
+<!ELEMENT profesora (nombre, apellido1, apellido2)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+
+<!ELEMENT alumnos ((alumno | alumna)+)>
+<!ELEMENT alumno (nombre, apellido1, apellido2)>
+<!ELEMENT alumna (nombre, apellido1, apellido2)>

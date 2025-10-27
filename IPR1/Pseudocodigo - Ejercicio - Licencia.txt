@@ -1,0 +1,37 @@
+// Comprobación de licencia de conducir
+
+
+VARIABLES
+int edad = 0
+char tipoDeLicencia = 'A'
+
+
+INICIO
+
+escribir ("Indique su edad: ")
+
+leer(edad)
+
+Si edad > 18 entonces
+
+	escribir("Ahora, introduzca su tipo de licencia (A, B o C): ")
+	leer(tipoDeLicencia)
+	
+		Si (tipoDeLicencia) igual:
+		
+			"A" o "a":
+				escribir("Puede concudir motocicletas")
+				
+			"B" o "b":
+				escribir("Puede concudir automoviles")
+				
+			"C" o "c":
+				escribir("Puede concudir camiones")			
+
+		De lo contrario
+			escribir("Ha introducido un valor incorrecto")
+			
+Si no
+	escribir("Debe ser mayor de edad para conducir")
+	
+FIN
