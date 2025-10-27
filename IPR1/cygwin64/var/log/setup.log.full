@@ -1,0 +1,1892 @@
+2019/10/02 14:59:41 Starting cygwin install, version 2.897
+2019/10/02 14:59:41 User has NO backup/restore rights
+2019/10/02 14:59:41 Current Directory: C:\Users\marcos.novalbos\Downloads
+2019/10/02 14:59:41 Could not open Service control manager
+2019/10/02 14:59:44 source: network install
+2019/10/02 14:59:46 root: C:\cygwin64 user
+2019/10/02 14:59:46 Selected local directory: C:\Users\marcos.novalbos\Downloads
+2019/10/02 14:59:47 net: Preconfig
+Loaded cached mirror list
+Fetched URL: https://cygwin.com/mirrors.lst
+2019/10/02 14:59:49 site: http://cygwin.mirror.constant.com/
+2019/10/02 14:59:50 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst.sig
+2019/10/02 14:59:50 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst
+Fetched URL: http://cygwin.mirror.constant.com/x86_64/setup.xz.sig
+Fetched URL: http://cygwin.mirror.constant.com/x86_64/setup.xz
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+.ini setup_version is 2.897, our setup_version is 2.897
+INSTALLED.DB version 3
+No source package for 'mintty' 3.0.2-1, source package name 'mintty-src'
+2019/10/02 14:59:53 solving: 0 tasks, update: yes, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0
+libsolv: number of solvables: 50067, memory used: 2738 K
+libsolv: number of ids: 26378 + 49916
+libsolv: string memory used: 103 K array + 452 K data,  rel memory used: 584 K array
+libsolv: string hash memory: 256 K, rel hash memory : 512 K
+libsolv: provide ids: 11293
+libsolv: provide space needed: 37305 + 99832
+libsolv: shrunk whatprovidesdata from 37305 to 37305
+libsolv: shrunk whatprovidesauxdata from 37305 to 26009
+libsolv: whatprovides memory used: 302 K id array, 535 K data
+libsolv: whatprovidesaux memory used: 103 K id array, 101 K data
+libsolv: WARNING: pool_addfileprovides was not called, this may result in slow operation
+libsolv: lazywhatprovidesq size: 0 entries
+libsolv: createwhatprovides took 3 ms
+libsolv: obsoletes data: 1 entries
+libsolv: added 2566 pkg rules for installed solvables
+libsolv: added 397 pkg rules for updaters of installed solvables
+libsolv: added 0 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 600 of 25138 installable solvables considered for solving
+libsolv: pruned rules from 2964 to 2964
+libsolv:   binary: 865
+libsolv:   normal: 2098, 7824 literals
+libsolv: pkg rule memory used: 69 K
+libsolv: pkg rule creation took 1 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 2963 pkg rules, 2 * 152 update rules, 0 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules
+libsolv: overall rule memory used: 76 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 1 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 5 ms
+libsolv: 
+libsolv: transaction:
+libsolv:   upgrade   gdb-8.1.1-1.any
+libsolv:   (obsoletes
+libsolv:  gdb-7.9.1-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   info-6.7-1.any
+libsolv:   (obsoletes
+libsolv:  info-6.6-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   mintty-3.0.5-1.any
+libsolv:   (obsoletes
+libsolv:  mintty-3.0.2-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   texinfo-6.7-1.any
+libsolv:   (obsoletes
+libsolv:  texinfo-6.6-1.any
+libsolv: )
+libsolv: 
+libsolv:   install   perl-Unicode-Normalize-1.25-2.any
+libsolv: 
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 5
+libsolv: edges: 2, edge space: 3
+libsolv: edge creation took 0 ms
+libsolv: cycles broken: 0
+libsolv: cycle breaking took 0 ms
+libsolv: cycle edge creation took 0 ms
+libsolv: invedge space: 9
+libsolv: creating new transaction took 0 ms
+libsolv: transaction ordering took 0 ms
+libsolv: 4 upgraded packages:
+libsolv:   - gdb-7.9.1-1.any -> gdb-8.1.1-1.any
+libsolv:   - info-6.6-1.any -> info-6.7-1.any
+libsolv:   - mintty-3.0.2-1.any -> mintty-3.0.5-1.any
+libsolv:   - texinfo-6.6-1.any -> texinfo-6.7-1.any
+libsolv: 
+libsolv: 1 installed packages:
+libsolv:   - perl-Unicode-Normalize-1.25-2.any
+libsolv: 
+2019/10/02 15:00:07 solving: 6 tasks, update: no, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0
+libsolv: obsoletes data: 1 entries
+libsolv: added 0 pkg rules for installed solvables
+libsolv: added 0 pkg rules for updaters of installed solvables
+libsolv: added 6 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 601 of 25138 installable solvables considered for solving
+libsolv: pruned rules from 2970 to 2970
+libsolv:   binary: 867
+libsolv:   normal: 2102, 7839 literals
+libsolv: pkg rule memory used: 69 K
+libsolv: pkg rule creation took 1 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 2969 pkg rules, 2 * 152 update rules, 6 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules
+libsolv: overall rule memory used: 76 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 0 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 1 ms
+libsolv: 
+libsolv: transaction:
+libsolv:   upgrade   gdb-8.1.1-1.any
+libsolv:   (obsoletes
+libsolv:  gdb-7.9.1-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   info-6.7-1.any
+libsolv:   (obsoletes
+libsolv:  info-6.6-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   mintty-3.0.5-1.any
+libsolv:   (obsoletes
+libsolv:  mintty-3.0.2-1.any
+libsolv: )
+libsolv: 
+libsolv:   install   nano-2.8.7-1.any
+libsolv: 
+libsolv:   install   perl-Unicode-Normalize-1.25-2.any
+libsolv: 
+libsolv:   upgrade   texinfo-6.7-1.any
+libsolv:   (obsoletes
+libsolv:  texinfo-6.6-1.any
+libsolv: )
+libsolv: 
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 6
+libsolv: edges: 2, edge space: 3
+libsolv: edge creation took 0 ms
+libsolv: cycles broken: 0
+libsolv: cycle breaking took 0 ms
+libsolv: cycle edge creation took 0 ms
+libsolv: invedge space: 10
+libsolv: creating new transaction took 0 ms
+libsolv: transaction ordering took 0 ms
+libsolv: 4 upgraded packages:
+libsolv:   - gdb-7.9.1-1.any -> gdb-8.1.1-1.any
+libsolv:   - info-6.6-1.any -> info-6.7-1.any
+libsolv:   - mintty-3.0.2-1.any -> mintty-3.0.5-1.any
+libsolv:   - texinfo-6.6-1.any -> texinfo-6.7-1.any
+libsolv: 
+libsolv: 2 installed packages:
+libsolv:   - nano-2.8.7-1.any
+libsolv:   - perl-Unicode-Normalize-1.25-2.any
+libsolv: 
+2019/10/02 15:00:07 Augmented Transaction List:
+2019/10/02 15:00:07    0 install                                             gdb             8.1.1-1
+2019/10/02 15:00:07    1   erase                                             gdb             7.9.1-1
+2019/10/02 15:00:07    2 install                                            info               6.7-1
+2019/10/02 15:00:07    3   erase                                            info               6.6-1
+2019/10/02 15:00:07    4 install                                          mintty             3.0.5-1
+2019/10/02 15:00:07    5   erase                                          mintty             3.0.2-1
+2019/10/02 15:00:07    6 install                                            nano             2.8.7-1
+2019/10/02 15:00:07    7 install                          perl-Unicode-Normalize              1.25-2
+2019/10/02 15:00:07    8 install                                         texinfo               6.7-1
+2019/10/02 15:00:07    9   erase                                         texinfo               6.6-1
+get_url_to_file http://cygwin.mirror.constant.com/x86_64/release/gdb/gdb-8.1.1-1.tar.xz C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdb/gdb-8.1.1-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdb/gdb-8.1.1-1.tar.xz
+SHA512 verified OK: file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdb/gdb-8.1.1-1.tar.xz 8b1d00b14ba114cd16b25b2688d934b9da922091bd236e2b7cb0196f360eeaad588ae1a092c35ddbab49dad023f9fe5cd55ea51291551afa3490facd45a3d330
+2019/10/02 15:00:14 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdb/gdb-8.1.1-1.tar.xz
+get_url_to_file http://cygwin.mirror.constant.com/x86_64/release/texinfo/info/info-6.7-1.tar.xz C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/info/info-6.7-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/info/info-6.7-1.tar.xz
+SHA512 verified OK: file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/info/info-6.7-1.tar.xz 0e6b2cabadedd6b3812758a4456d63c0f73fff709205d3c80e58ab90323d6d75e83c3f6c5e7a8a62f5b7dc8018e73dbfefbc213fa2f5f490346db27fa98a074c
+2019/10/02 15:00:14 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/info/info-6.7-1.tar.xz
+get_url_to_file http://cygwin.mirror.constant.com/x86_64/release/mintty/mintty-3.0.5-1.tar.xz C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mintty/mintty-3.0.5-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mintty/mintty-3.0.5-1.tar.xz
+SHA512 verified OK: file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mintty/mintty-3.0.5-1.tar.xz 4b458ba28859e3984e35037e87b738f8fcbef472426bea3aeddfebeb606810c04ccd1ec4e1d22984a1eb091f3f199413b59aa0c2507bcbe762249153bbf9a36d
+2019/10/02 15:00:14 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mintty/mintty-3.0.5-1.tar.xz
+get_url_to_file http://cygwin.mirror.constant.com/x86_64/release/nano/nano-2.8.7-1.tar.xz C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/nano/nano-2.8.7-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/nano/nano-2.8.7-1.tar.xz
+SHA512 verified OK: file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/nano/nano-2.8.7-1.tar.xz f405af1e41e72d058d3acfd9c775390386d8d051309fb2bef6fa5f1079196991132777daa0284bb5ef9b4cd561b481f561de08af115f5a891f8737ba2ef8c24c
+2019/10/02 15:00:14 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/nano/nano-2.8.7-1.tar.xz
+get_url_to_file http://cygwin.mirror.constant.com/x86_64/release/perl-Unicode-Normalize/perl-Unicode-Normalize-1.25-2.tar.xz C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl-Unicode-Normalize/perl-Unicode-Normalize-1.25-2.tar.xz.tmp
+Checking SHA512 for file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl-Unicode-Normalize/perl-Unicode-Normalize-1.25-2.tar.xz
+SHA512 verified OK: file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl-Unicode-Normalize/perl-Unicode-Normalize-1.25-2.tar.xz da016ecd9ac6dd3ecd1a65b80c2728db59bccd9ca5e6b54888f02398e3f97a90d1bae3bef85f0eb0950c07734bf3e191fb679fc39527205ba0520009ca4769d2
+2019/10/02 15:00:14 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl-Unicode-Normalize/perl-Unicode-Normalize-1.25-2.tar.xz
+get_url_to_file http://cygwin.mirror.constant.com/x86_64/release/texinfo/texinfo-6.7-1.tar.xz C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/texinfo-6.7-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/texinfo-6.7-1.tar.xz
+SHA512 verified OK: file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/texinfo-6.7-1.tar.xz a55bc509351d8fa7737b720d4eb89397d7461ae34d4e1335ef1c2d1a87a1ef9f67a12e4340548acd37d763d1f1c8b835b7bc98d3e96468b3f2718e1627d69cfd
+2019/10/02 15:00:15 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/texinfo-6.7-1.tar.xz
+Running preremove script for gdb
+Running preremove script for info
+Running preremove script for mintty
+Running preremove script for texinfo
+2019/10/02 15:00:15 Uninstalling gdb
+unlink C:\cygwin64\bin/gdb.exe
+unlink C:\cygwin64\bin/gdbserver.exe
+unlink C:\cygwin64/usr/share/doc/gdb/ChangeLog
+unlink C:\cygwin64/usr/share/doc/gdb/COPYING
+unlink C:\cygwin64/usr/share/doc/gdb/MAINTAINERS
+unlink C:\cygwin64/usr/share/doc/gdb/NEWS
+unlink C:\cygwin64/usr/share/doc/gdb/README
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/explore.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/explore.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/explore.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/frame_filters.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/frame_filters.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/frame_filters.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/pretty_printers.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/pretty_printers.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/pretty_printers.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/prompt.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/prompt.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/prompt.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/type_printers.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/type_printers.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/type_printers.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/xmethods.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/xmethods.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/xmethods.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/__init__.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/__init__.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/command/__init__.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/FrameDecorator.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/FrameDecorator.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/FrameDecorator.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/FrameIterator.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/FrameIterator.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/FrameIterator.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/frames.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/frames.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/frames.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/function/caller_is.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/function/caller_is.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/function/caller_is.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/function/strfns.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/function/strfns.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/function/strfns.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/function/__init__.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/function/__init__.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/function/__init__.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/printer/bound_registers.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/printer/bound_registers.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/printer/bound_registers.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/printer/__init__.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/printer/__init__.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/printer/__init__.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/printing.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/printing.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/printing.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/prompt.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/prompt.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/prompt.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/types.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/types.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/types.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/xmethod.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/xmethod.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/xmethod.pyo
+unlink C:\cygwin64/usr/share/gdb/python/gdb/__init__.py
+unlink C:\cygwin64/usr/share/gdb/python/gdb/__init__.pyc
+unlink C:\cygwin64/usr/share/gdb/python/gdb/__init__.pyo
+unlink C:\cygwin64/usr/share/gdb/syscalls/amd64-linux.xml
+unlink C:\cygwin64/usr/share/gdb/syscalls/arm-linux.xml
+unlink C:\cygwin64/usr/share/gdb/syscalls/gdb-syscalls.dtd
+unlink C:\cygwin64/usr/share/gdb/syscalls/i386-linux.xml
+unlink C:\cygwin64/usr/share/gdb/syscalls/mips-n32-linux.xml
+unlink C:\cygwin64/usr/share/gdb/syscalls/mips-n64-linux.xml
+unlink C:\cygwin64/usr/share/gdb/syscalls/mips-o32-linux.xml
+unlink C:\cygwin64/usr/share/gdb/syscalls/ppc-linux.xml
+unlink C:\cygwin64/usr/share/gdb/syscalls/ppc64-linux.xml
+unlink C:\cygwin64/usr/share/gdb/syscalls/s390-linux.xml
+unlink C:\cygwin64/usr/share/gdb/syscalls/s390x-linux.xml
+unlink C:\cygwin64/usr/share/gdb/syscalls/sparc-linux.xml
+unlink C:\cygwin64/usr/share/gdb/syscalls/sparc64-linux.xml
+unlink C:\cygwin64/usr/share/gdb/system-gdbinit/elinos.py
+unlink C:\cygwin64/usr/share/gdb/system-gdbinit/wrs-linux.py
+unlink C:\cygwin64/usr/share/info/annotate.info.gz
+unlink C:\cygwin64/usr/share/info/gdb.info.gz
+unlink C:\cygwin64/usr/share/info/stabs.info.gz
+unlink C:\cygwin64/usr/share/man/man1/gdb.1.gz
+unlink C:\cygwin64/usr/share/man/man1/gdbserver.1.gz
+unlink C:\cygwin64/usr/share/man/man5/gdbinit.5.gz
+rmdir C:\cygwin64/usr/share/gdb/system-gdbinit
+rmdir C:\cygwin64/usr/share/gdb/syscalls
+rmdir C:\cygwin64/usr/share/gdb/python/gdb/printer
+rmdir C:\cygwin64/usr/share/gdb/python/gdb/function
+rmdir C:\cygwin64/usr/share/gdb/python/gdb/command
+rmdir C:\cygwin64/usr/share/gdb/python/gdb
+rmdir C:\cygwin64/usr/share/gdb/python
+rmdir C:\cygwin64/usr/share/gdb
+rmdir C:\cygwin64/usr/share/doc/gdb
+2019/10/02 15:00:15 Uninstalling info
+unlink C:\cygwin64/etc/postinstall/0p_update-info-dir.dash
+unlink C:\cygwin64\bin/info.exe
+unlink C:\cygwin64\bin/install-info.exe
+unlink C:\cygwin64/usr/share/info/info-stnd.info.gz
+unlink C:\cygwin64/usr/share/locale/ca/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/ca/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/ca.us-ascii/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/cs/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/cs/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/da/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/da/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/de/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/de/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/de.us-ascii/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/de_AT/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/el/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/el/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/eo/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/eo/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/es/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/es/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/fi/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/fr/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/fr/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/he/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/hr/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/hr/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/hu/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/hu/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/id/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/it/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/it/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/ja/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/nb/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/nl/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/nl/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/no.us-ascii/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/pl/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/pl/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/pt/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/pt/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/pt.us-ascii/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/pt_BR/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/pt_BR/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/pt_BR.us-ascii/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/ro/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/ru/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/rw/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/sl/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/sv/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/tr/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/uk/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/uk/LC_MESSAGES/texinfo_document.mo
+unlink C:\cygwin64/usr/share/locale/vi/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/zh_CN/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/locale/zh_TW/LC_MESSAGES/texinfo.mo
+unlink C:\cygwin64/usr/share/man/man1/info.1.gz
+unlink C:\cygwin64/usr/share/man/man5/info.5.gz
+unlink C:\cygwin64/usr/share/man/man1/install-info.1.gz
+rmdir C:\cygwin64/usr/share/locale/pt_BR.us-ascii/LC_MESSAGES
+rmdir C:\cygwin64/usr/share/locale/pt_BR.us-ascii
+rmdir C:\cygwin64/usr/share/locale/pt.us-ascii/LC_MESSAGES
+rmdir C:\cygwin64/usr/share/locale/pt.us-ascii
+rmdir C:\cygwin64/usr/share/locale/no.us-ascii/LC_MESSAGES
+rmdir C:\cygwin64/usr/share/locale/no.us-ascii
+rmdir C:\cygwin64/usr/share/locale/de_AT/LC_MESSAGES
+rmdir C:\cygwin64/usr/share/locale/de_AT
+rmdir C:\cygwin64/usr/share/locale/de.us-ascii/LC_MESSAGES
+rmdir C:\cygwin64/usr/share/locale/de.us-ascii
+rmdir C:\cygwin64/usr/share/locale/ca.us-ascii/LC_MESSAGES
+rmdir C:\cygwin64/usr/share/locale/ca.us-ascii
+2019/10/02 15:00:15 Uninstalling mintty
+unlink C:\cygwin64\bin/mintheme
+unlink C:\cygwin64\bin/mintty.exe
+unlink C:\cygwin64/usr/share/applications/mintty.desktop
+unlink C:\cygwin64/usr/share/doc/mintty/LICENSE
+unlink C:\cygwin64/usr/share/doc/mintty/LICENSE.bundling
+unlink C:\cygwin64/usr/share/doc/mintty/LICENSE.GPL
+unlink C:\cygwin64/usr/share/doc/mintty/LICENSE.Oxygen
+unlink C:\cygwin64/usr/share/doc/mintty/LICENSE.PuTTY
+unlink C:\cygwin64/usr/share/doc/mintty/README
+unlink C:\cygwin64/usr/share/doc/mintty/setup.hint
+unlink C:\cygwin64/usr/share/icons/hicolor/16x16/apps/mintty.png
+unlink C:\cygwin64/usr/share/icons/hicolor/24x24/apps/mintty.png
+unlink C:\cygwin64/usr/share/icons/hicolor/256x256/apps/mintty.png
+unlink C:\cygwin64/usr/share/icons/hicolor/32x32/apps/mintty.png
+unlink C:\cygwin64/usr/share/icons/hicolor/48x48/apps/mintty.png
+unlink C:\cygwin64/usr/share/icons/hicolor/64x64/apps/mintty.png
+unlink C:\cygwin64/usr/share/man/man1/mintty.1.gz
+unlink C:\cygwin64/usr/share/mintty/icon/wsl.ico
+unlink C:\cygwin64/usr/share/mintty/lang/de.po
+unlink C:\cygwin64/usr/share/mintty/lang/en.po
+unlink C:\cygwin64/usr/share/mintty/lang/en_US.po
+unlink C:\cygwin64/usr/share/mintty/lang/es.po
+unlink C:\cygwin64/usr/share/mintty/lang/fr.po
+unlink C:\cygwin64/usr/share/mintty/lang/ja.po
+unlink C:\cygwin64/usr/share/mintty/lang/messages.pot
+unlink C:\cygwin64/usr/share/mintty/lang/pt_BR.po
+unlink C:\cygwin64/usr/share/mintty/lang/ru.po
+unlink C:\cygwin64/usr/share/mintty/lang/zh_CN.po
+unlink C:\cygwin64/usr/share/mintty/lang/zh_TW.po
+unlink C:\cygwin64/usr/share/mintty/sounds/ambient-drip-lo.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/ambient-drop.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/ambient-glass.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/ambient-splash.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/ambient-swoosh.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/ambient-uncork.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/BOING.WAV
+unlink C:\cygwin64/usr/share/mintty/sounds/percussive-bongo-hi.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/percussive-bongo-lo.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/percussive-gong.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/percussive-knock.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/percussive-synthkick-lo.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/README.md
+unlink C:\cygwin64/usr/share/mintty/sounds/resonant-flute.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/resonant-organ.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/resonant-reverb.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/resonant-twang.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/synthetic-bass.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/synthetic-gib.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/synthetic-honk.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/synthetic-intruder.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/synthetic-rave.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/synthetic-select.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/synthetic-spike.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/synthetic-sproing.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/synthetic-square.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/vocal-boo.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/vocal-hah.wav
+unlink C:\cygwin64/usr/share/mintty/sounds/vocal-yip.wav
+unlink C:\cygwin64/usr/share/mintty/themes/dracula
+unlink C:\cygwin64/usr/share/mintty/themes/flat-ui
+unlink C:\cygwin64/usr/share/mintty/themes/html
+unlink C:\cygwin64/usr/share/mintty/themes/mintty
+unlink C:\cygwin64/usr/share/mintty/themes/nord
+unlink C:\cygwin64/usr/share/mintty/themes/rosipov
+unlink C:\cygwin64/usr/share/mintty/themes/vga
+unlink C:\cygwin64/usr/share/mintty/themes/windows10
+unlink C:\cygwin64/usr/share/mintty/themes/xterm
+rmdir C:\cygwin64/usr/share/mintty/themes
+rmdir C:\cygwin64/usr/share/mintty/sounds
+rmdir C:\cygwin64/usr/share/mintty/lang
+rmdir C:\cygwin64/usr/share/mintty/icon
+rmdir C:\cygwin64/usr/share/mintty
+rmdir C:\cygwin64/usr/share/icons/hicolor/64x64/apps
+rmdir C:\cygwin64/usr/share/icons/hicolor/64x64
+rmdir C:\cygwin64/usr/share/icons/hicolor/48x48/apps
+rmdir C:\cygwin64/usr/share/icons/hicolor/48x48
+rmdir C:\cygwin64/usr/share/icons/hicolor/32x32/apps
+rmdir C:\cygwin64/usr/share/icons/hicolor/32x32
+rmdir C:\cygwin64/usr/share/icons/hicolor/256x256/apps
+rmdir C:\cygwin64/usr/share/icons/hicolor/256x256
+rmdir C:\cygwin64/usr/share/icons/hicolor/24x24/apps
+rmdir C:\cygwin64/usr/share/icons/hicolor/24x24
+rmdir C:\cygwin64/usr/share/icons/hicolor/16x16/apps
+rmdir C:\cygwin64/usr/share/icons/hicolor/16x16
+rmdir C:\cygwin64/usr/share/icons/hicolor
+rmdir C:\cygwin64/usr/share/icons
+rmdir C:\cygwin64/usr/share/doc/mintty
+rmdir C:\cygwin64/usr/share/applications
+2019/10/02 15:00:15 Uninstalling texinfo
+unlink C:\cygwin64\bin/makeinfo
+unlink C:\cygwin64\bin/pod2texi
+unlink C:\cygwin64\bin/texi2any
+unlink C:\cygwin64\lib/texinfo/MiscXS.dll
+unlink C:\cygwin64\lib/texinfo/MiscXS.la
+unlink C:\cygwin64\lib/texinfo/Parsetexi.dll
+unlink C:\cygwin64\lib/texinfo/Parsetexi.la
+unlink C:\cygwin64\lib/texinfo/XSParagraph.dll
+unlink C:\cygwin64\lib/texinfo/XSParagraph.la
+unlink C:\cygwin64/usr/share/doc/texinfo/AUTHORS
+unlink C:\cygwin64/usr/share/doc/texinfo/ChangeLog
+unlink C:\cygwin64/usr/share/doc/texinfo/COPYING
+unlink C:\cygwin64/usr/share/doc/texinfo/NEWS
+unlink C:\cygwin64/usr/share/doc/texinfo/README
+unlink C:\cygwin64/usr/share/doc/texinfo/TODO
+unlink C:\cygwin64/usr/share/info/texinfo.info-1.gz
+unlink C:\cygwin64/usr/share/info/texinfo.info-2.gz
+unlink C:\cygwin64/usr/share/info/texinfo.info-3.gz
+unlink C:\cygwin64/usr/share/info/texinfo.info.gz
+unlink C:\cygwin64/usr/share/man/man5/texinfo.5.gz
+unlink C:\cygwin64/usr/share/man/man1/makeinfo.1.gz
+unlink C:\cygwin64/usr/share/man/man1/pod2texi.1.gz
+unlink C:\cygwin64/usr/share/man/man1/texi2any.1.gz
+unlink C:\cygwin64/usr/share/texinfo/DebugTexinfo/DebugTree.pm
+unlink C:\cygwin64/usr/share/texinfo/htmlxref.cnf
+unlink C:\cygwin64/usr/share/texinfo/init/book.pm
+unlink C:\cygwin64/usr/share/texinfo/init/chm.pm
+unlink C:\cygwin64/usr/share/texinfo/init/html32.pm
+unlink C:\cygwin64/usr/share/texinfo/init/latex2html.pm
+unlink C:\cygwin64/usr/share/texinfo/init/tex4ht.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/gettext_pp.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/Messages.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/Recode/_Aliases.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/Recode/_Conversions.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/Recode.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ASMO_449.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ATARI_ST.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ATARI_ST_EURO.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP10007.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP1250.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP1251.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP1252.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP1253.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP1254.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP1256.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP1257.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CSN_369103.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CWI.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/DEC_MCS.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_AT_DE.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_AT_DE_A.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_CA_FR.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_DK_NO.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_DK_NO_A.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_ES.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_ES_A.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_ES_S.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_FI_SE.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_FI_SE_A.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_FR.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_IS_FRISS.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_IT.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_PT.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_UK.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_US.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ECMA_CYRILLIC.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/GEORGIAN_ACADEMY.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/GEORGIAN_PS.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/GOST_19768_74.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/GREEK7.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/GREEK7_OLD.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/GREEK_CCITT.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/HP_ROMAN8.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM037.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM038.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM1004.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM1026.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM1047.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM256.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM273.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM274.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM275.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM277.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM278.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM280.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM281.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM284.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM285.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM290.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM297.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM420.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM423.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM424.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM437.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM500.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM850.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM851.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM852.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM855.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM857.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM860.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM861.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM862.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM863.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM864.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM865.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM866.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM868.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM869.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM870.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM871.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM874.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM875.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM880.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM891.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM903.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM904.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM905.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM918.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IEC_P27_1.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/INIS.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/INIS_8.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/INIS_CYRILLIC.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_10367_BOX.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_2033_1983.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_5427.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_5427_EXT.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_5428.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_1.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_10.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_11.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_13.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_14.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_15.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_16.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_2.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_3.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_4.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_5.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_6.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_7.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_8.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_9.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/KOI8_R.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/KOI8_RU.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/KOI8_T.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/KOI8_U.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/KOI_8.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/LATIN_GREEK.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/LATIN_GREEK_1.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACARABIC.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACCROATIAN.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACCYRILLIC.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACGREEK.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACHEBREW.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACICELAND.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACINTOSH.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACROMANIA.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACTHAI.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACTURKISH.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACUKRAINE.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MAC_IS.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MAC_SAMI.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MAC_UK.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/NATS_DANO.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/NATS_SEFI.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/NEXTSTEP.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/SAMI_WS2.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/TIS_620.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/US_ASCII.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/UTF_8.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/VISCII.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/_Encode.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/TextDomain.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/Util.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x00.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x01.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x02.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x03.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x04.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x05.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x06.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x07.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x09.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x0a.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x0b.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x0c.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x0d.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x0e.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x0f.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x10.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x11.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x12.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x13.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x14.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x15.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x16.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x17.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x18.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x1e.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x1f.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x20.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x21.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x22.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x23.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x24.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x25.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x26.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x27.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x28.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x2e.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x2f.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x30.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x31.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x32.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x33.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x4d.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x4e.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x4f.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x50.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x51.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x52.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x53.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x54.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x55.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x56.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x57.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x58.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x59.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x5a.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x5b.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x5c.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x5d.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x5e.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x5f.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x60.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x61.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x62.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x63.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x64.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x65.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x66.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x67.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x68.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x69.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x6a.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x6b.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x6c.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x6d.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x6e.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x6f.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x70.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x71.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x72.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x73.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x74.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x75.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x76.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x77.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x78.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x79.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x7a.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x7b.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x7c.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x7d.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x7e.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x7f.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x80.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x81.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x82.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x83.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x84.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x85.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x86.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x87.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x88.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x89.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x8a.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x8b.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x8c.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x8d.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x8e.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x8f.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x90.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x91.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x92.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x93.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x94.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x95.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x96.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x97.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x98.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x99.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x9a.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x9b.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x9c.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x9d.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x9e.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x9f.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xa0.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xa1.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xa2.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xa3.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xa4.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xac.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xad.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xae.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xaf.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb0.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb1.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb2.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb3.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb4.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb5.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb6.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb7.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb8.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb9.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xba.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xbb.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xbc.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xbd.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xbe.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xbf.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc0.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc1.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc2.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc3.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc4.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc5.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc6.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc7.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc8.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc9.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xca.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xcb.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xcc.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xcd.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xce.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xcf.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd0.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd1.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd2.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd3.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd4.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd5.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd6.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd7.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xf9.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xfa.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xfb.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xfc.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xfd.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xfe.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xff.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode.pm
+unlink C:\cygwin64/usr/share/texinfo/lib/Unicode-EastAsianWidth/lib/Unicode/EastAsianWidth.pm
+unlink C:\cygwin64/usr/share/texinfo/Pod-Simple-Texinfo/Pod/Simple/Texinfo.pm
+unlink C:\cygwin64/usr/share/texinfo/texindex.awk
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Common.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/Converter.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/DocBook.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/HTML.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/Info.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/IXIN.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/IXINSXML.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/Line.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/NodeNameNormalization.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/Paragraph.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/ParagraphNonXS.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/PlainTexinfo.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/Plaintext.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/Texinfo.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/TexinfoSXML.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/TexinfoXML.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/Text.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/TextContent.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/UnFilled.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Convert/Unicode.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Documentlanguages.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Encoding.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/MiscXS.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/ModulePath.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Parser.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/ParserNonXS.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Report.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Structuring.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/Transformations.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/XS/parsetexi/Parsetexi.pm
+unlink C:\cygwin64/usr/share/texinfo/Texinfo/XSLoader.pm
+unlink C:\cygwin64/usr/share/texinfo/texinfo.dtd
+rmdir C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData
+rmdir C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale/Recode
+rmdir C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib/Locale
+rmdir C:\cygwin64/usr/share/texinfo/lib/libintl-perl/lib
+rmdir C:\cygwin64/usr/share/texinfo/lib/libintl-perl
+rmdir C:\cygwin64/usr/share/texinfo/lib/Unicode-EastAsianWidth/lib/Unicode
+rmdir C:\cygwin64/usr/share/texinfo/lib/Unicode-EastAsianWidth/lib
+rmdir C:\cygwin64/usr/share/texinfo/lib/Unicode-EastAsianWidth
+rmdir C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode
+rmdir C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib/Text
+rmdir C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode/lib
+rmdir C:\cygwin64/usr/share/texinfo/lib/Text-Unidecode
+rmdir C:\cygwin64/usr/share/texinfo/lib
+rmdir C:\cygwin64/usr/share/texinfo/init
+rmdir C:\cygwin64/usr/share/texinfo/Texinfo/XS/parsetexi
+rmdir C:\cygwin64/usr/share/texinfo/Texinfo/XS
+rmdir C:\cygwin64/usr/share/texinfo/Texinfo/Convert
+rmdir C:\cygwin64/usr/share/texinfo/Texinfo
+rmdir C:\cygwin64/usr/share/texinfo/Pod-Simple-Texinfo/Pod/Simple
+rmdir C:\cygwin64/usr/share/texinfo/Pod-Simple-Texinfo/Pod
+rmdir C:\cygwin64/usr/share/texinfo/Pod-Simple-Texinfo
+rmdir C:\cygwin64/usr/share/texinfo/DebugTexinfo
+rmdir C:\cygwin64/usr/share/texinfo
+rmdir C:\cygwin64/usr/share/doc/texinfo
+rmdir C:\cygwin64\lib/texinfo
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/10/02 15:00:16 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdb/gdb-8.1.1-1.tar.xz
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/gdb.exe
+Installing file cygfile:///usr/bin/gdbserver.exe
+Installing file cygfile:///usr/lib/
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/gdb/
+Installing file cygfile:///usr/share/doc/gdb/ChangeLog
+Installing file cygfile:///usr/share/doc/gdb/COPYING
+Installing file cygfile:///usr/share/doc/gdb/MAINTAINERS
+Installing file cygfile:///usr/share/doc/gdb/NEWS
+Installing file cygfile:///usr/share/doc/gdb/README
+Installing file cygfile:///usr/share/gdb/
+Installing file cygfile:///usr/share/gdb/python/
+Installing file cygfile:///usr/share/gdb/python/gdb/
+Installing file cygfile:///usr/share/gdb/python/gdb/command/
+Installing file cygfile:///usr/share/gdb/python/gdb/command/explore.py
+Installing file cygfile:///usr/share/gdb/python/gdb/command/explore.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/command/explore.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/command/frame_filters.py
+Installing file cygfile:///usr/share/gdb/python/gdb/command/frame_filters.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/command/frame_filters.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/command/pretty_printers.py
+Installing file cygfile:///usr/share/gdb/python/gdb/command/pretty_printers.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/command/pretty_printers.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/command/prompt.py
+Installing file cygfile:///usr/share/gdb/python/gdb/command/prompt.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/command/prompt.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/command/type_printers.py
+Installing file cygfile:///usr/share/gdb/python/gdb/command/type_printers.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/command/type_printers.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/command/unwinders.py
+Installing file cygfile:///usr/share/gdb/python/gdb/command/unwinders.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/command/unwinders.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/command/xmethods.py
+Installing file cygfile:///usr/share/gdb/python/gdb/command/xmethods.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/command/xmethods.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/command/__init__.py
+Installing file cygfile:///usr/share/gdb/python/gdb/command/__init__.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/command/__init__.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/FrameDecorator.py
+Installing file cygfile:///usr/share/gdb/python/gdb/FrameDecorator.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/FrameDecorator.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/FrameIterator.py
+Installing file cygfile:///usr/share/gdb/python/gdb/FrameIterator.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/FrameIterator.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/frames.py
+Installing file cygfile:///usr/share/gdb/python/gdb/frames.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/frames.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/function/
+Installing file cygfile:///usr/share/gdb/python/gdb/function/as_string.py
+Installing file cygfile:///usr/share/gdb/python/gdb/function/as_string.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/function/as_string.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/function/caller_is.py
+Installing file cygfile:///usr/share/gdb/python/gdb/function/caller_is.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/function/caller_is.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/function/strfns.py
+Installing file cygfile:///usr/share/gdb/python/gdb/function/strfns.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/function/strfns.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/function/__init__.py
+Installing file cygfile:///usr/share/gdb/python/gdb/function/__init__.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/function/__init__.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/printer/
+Installing file cygfile:///usr/share/gdb/python/gdb/printer/bound_registers.py
+Installing file cygfile:///usr/share/gdb/python/gdb/printer/bound_registers.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/printer/bound_registers.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/printer/__init__.py
+Installing file cygfile:///usr/share/gdb/python/gdb/printer/__init__.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/printer/__init__.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/printing.py
+Installing file cygfile:///usr/share/gdb/python/gdb/printing.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/printing.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/prompt.py
+Installing file cygfile:///usr/share/gdb/python/gdb/prompt.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/prompt.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/types.py
+Installing file cygfile:///usr/share/gdb/python/gdb/types.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/types.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/unwinder.py
+Installing file cygfile:///usr/share/gdb/python/gdb/unwinder.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/unwinder.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/xmethod.py
+Installing file cygfile:///usr/share/gdb/python/gdb/xmethod.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/xmethod.pyo
+Installing file cygfile:///usr/share/gdb/python/gdb/__init__.py
+Installing file cygfile:///usr/share/gdb/python/gdb/__init__.pyc
+Installing file cygfile:///usr/share/gdb/python/gdb/__init__.pyo
+Installing file cygfile:///usr/share/gdb/syscalls/
+Installing file cygfile:///usr/share/gdb/syscalls/aarch64-linux.xml
+Installing file cygfile:///usr/share/gdb/syscalls/amd64-linux.xml
+Installing file cygfile:///usr/share/gdb/syscalls/arm-linux.xml
+Installing file cygfile:///usr/share/gdb/syscalls/freebsd.xml
+Installing file cygfile:///usr/share/gdb/syscalls/gdb-syscalls.dtd
+Installing file cygfile:///usr/share/gdb/syscalls/i386-linux.xml
+Installing file cygfile:///usr/share/gdb/syscalls/mips-n32-linux.xml
+Installing file cygfile:///usr/share/gdb/syscalls/mips-n64-linux.xml
+Installing file cygfile:///usr/share/gdb/syscalls/mips-o32-linux.xml
+Installing file cygfile:///usr/share/gdb/syscalls/ppc-linux.xml
+Installing file cygfile:///usr/share/gdb/syscalls/ppc64-linux.xml
+Installing file cygfile:///usr/share/gdb/syscalls/s390-linux.xml
+Installing file cygfile:///usr/share/gdb/syscalls/s390x-linux.xml
+Installing file cygfile:///usr/share/gdb/syscalls/sparc-linux.xml
+Installing file cygfile:///usr/share/gdb/syscalls/sparc64-linux.xml
+Installing file cygfile:///usr/share/gdb/system-gdbinit/
+Installing file cygfile:///usr/share/gdb/system-gdbinit/elinos.py
+Installing file cygfile:///usr/share/gdb/system-gdbinit/wrs-linux.py
+Installing file cygfile:///usr/share/info/
+Installing file cygfile:///usr/share/info/annotate.info.gz
+Installing file cygfile:///usr/share/info/gdb.info.gz
+Installing file cygfile:///usr/share/info/stabs.info.gz
+Installing file cygfile:///usr/share/man/
+Installing file cygfile:///usr/share/man/man1/
+Installing file cygfile:///usr/share/man/man1/gdb.1.gz
+Installing file cygfile:///usr/share/man/man1/gdbserver.1.gz
+Installing file cygfile:///usr/share/man/man5/
+Installing file cygfile:///usr/share/man/man5/gdbinit.5.gz
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/10/02 15:00:16 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/info/info-6.7-1.tar.xz
+Installing file cygfile:///etc/postinstall/0p_update-info-dir.dash
+Installing file cygfile:///usr/bin/info.exe
+Installing file cygfile:///usr/bin/install-info.exe
+Installing file cygfile:///usr/share/info/info-stnd.info.gz
+Installing file cygfile:///usr/share/locale/
+Installing file cygfile:///usr/share/locale/ca/
+Installing file cygfile:///usr/share/locale/ca/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ca/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/ca/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/ca.us-ascii/
+Installing file cygfile:///usr/share/locale/ca.us-ascii/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ca.us-ascii/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/cs/
+Installing file cygfile:///usr/share/locale/cs/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/cs/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/cs/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/da/
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/de/
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/de.us-ascii/
+Installing file cygfile:///usr/share/locale/de.us-ascii/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/de.us-ascii/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/el/
+Installing file cygfile:///usr/share/locale/el/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/el/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/eo/
+Installing file cygfile:///usr/share/locale/eo/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/eo/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/eo/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/es/
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/fi/
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/fr/
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/he/
+Installing file cygfile:///usr/share/locale/he/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/he/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/hr/
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/hu/
+Installing file cygfile:///usr/share/locale/hu/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/hu/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/hu/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/id/
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/it/
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/ja/
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/nb/
+Installing file cygfile:///usr/share/locale/nb/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/nb/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/nl/
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/no.us-ascii/
+Installing file cygfile:///usr/share/locale/no.us-ascii/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/no.us-ascii/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/pl/
+Installing file cygfile:///usr/share/locale/pl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pl/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/pl/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/pt/
+Installing file cygfile:///usr/share/locale/pt/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pt/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/pt/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/pt.us-ascii/
+Installing file cygfile:///usr/share/locale/pt.us-ascii/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pt.us-ascii/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/pt_BR/
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/pt_BR.us-ascii/
+Installing file cygfile:///usr/share/locale/pt_BR.us-ascii/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pt_BR.us-ascii/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/ro/
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/ru/
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/rw/
+Installing file cygfile:///usr/share/locale/rw/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/rw/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/sl/
+Installing file cygfile:///usr/share/locale/sl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sl/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/sv/
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/tr/
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/uk/
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/texinfo_document.mo
+Installing file cygfile:///usr/share/locale/vi/
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/zh_CN/
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/locale/zh_TW/
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/texinfo.mo
+Installing file cygfile:///usr/share/man/man1/info.1.gz
+Installing file cygfile:///usr/share/man/man5/info.5.gz
+Installing file cygfile:///usr/share/man/man1/install-info.1.gz
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/10/02 15:00:16 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mintty/mintty-3.0.5-1.tar.xz
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/mintheme
+Installing file cygfile:///usr/bin/mintty.exe
+2019/10/02 15:00:16 io_stream_cygfile: fopen(/usr/bin/mintty.exe) failed 13 Permission denied
+2019/10/02 15:00:16 Failed to open cygfile:///usr/bin/mintty.exe for writing.
+C:\cygwin64\bin\mintty.exe (pid 8244)
+2019/10/02 15:00:23 running: C:\cygwin64\bin\kill.exe -TERM -W 8244
+Installing file cygfile:///etc/
+Installing file cygfile:///etc/postinstall/
+Installing file cygfile:///etc/postinstall/mintty.sh
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/applications/
+Installing file cygfile:///usr/share/applications/mintty.desktop
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/mintty/
+Installing file cygfile:///usr/share/doc/mintty/LICENSE
+Installing file cygfile:///usr/share/doc/mintty/LICENSE.bundling
+Installing file cygfile:///usr/share/doc/mintty/LICENSE.GPL
+Installing file cygfile:///usr/share/doc/mintty/LICENSE.Oxygen
+Installing file cygfile:///usr/share/doc/mintty/LICENSE.PuTTY
+Installing file cygfile:///usr/share/doc/mintty/README
+Installing file cygfile:///usr/share/doc/mintty/setup.hint
+Installing file cygfile:///usr/share/icons/
+Installing file cygfile:///usr/share/icons/hicolor/
+Installing file cygfile:///usr/share/icons/hicolor/16x16/
+Installing file cygfile:///usr/share/icons/hicolor/16x16/apps/
+Installing file cygfile:///usr/share/icons/hicolor/16x16/apps/mintty.png
+Installing file cygfile:///usr/share/icons/hicolor/24x24/
+Installing file cygfile:///usr/share/icons/hicolor/24x24/apps/
+Installing file cygfile:///usr/share/icons/hicolor/24x24/apps/mintty.png
+Installing file cygfile:///usr/share/icons/hicolor/256x256/
+Installing file cygfile:///usr/share/icons/hicolor/256x256/apps/
+Installing file cygfile:///usr/share/icons/hicolor/256x256/apps/mintty.png
+Installing file cygfile:///usr/share/icons/hicolor/32x32/
+Installing file cygfile:///usr/share/icons/hicolor/32x32/apps/
+Installing file cygfile:///usr/share/icons/hicolor/32x32/apps/mintty.png
+Installing file cygfile:///usr/share/icons/hicolor/48x48/
+Installing file cygfile:///usr/share/icons/hicolor/48x48/apps/
+Installing file cygfile:///usr/share/icons/hicolor/48x48/apps/mintty.png
+Installing file cygfile:///usr/share/icons/hicolor/64x64/
+Installing file cygfile:///usr/share/icons/hicolor/64x64/apps/
+Installing file cygfile:///usr/share/icons/hicolor/64x64/apps/mintty.png
+Installing file cygfile:///usr/share/man/
+Installing file cygfile:///usr/share/man/man1/
+Installing file cygfile:///usr/share/man/man1/mintty.1.gz
+Installing file cygfile:///usr/share/mintty/
+Installing file cygfile:///usr/share/mintty/emojis/
+Installing file cygfile:///usr/share/mintty/emojis/getemojis
+Installing file cygfile:///usr/share/mintty/icon/
+Installing file cygfile:///usr/share/mintty/icon/wsl.ico
+Installing file cygfile:///usr/share/mintty/lang/
+Installing file cygfile:///usr/share/mintty/lang/de.po
+Installing file cygfile:///usr/share/mintty/lang/en.po
+Installing file cygfile:///usr/share/mintty/lang/en_US.po
+Installing file cygfile:///usr/share/mintty/lang/es.po
+Installing file cygfile:///usr/share/mintty/lang/fr.po
+Installing file cygfile:///usr/share/mintty/lang/ja.po
+Installing file cygfile:///usr/share/mintty/lang/messages.pot
+Installing file cygfile:///usr/share/mintty/lang/nb.po
+Installing file cygfile:///usr/share/mintty/lang/pt_BR.po
+Installing file cygfile:///usr/share/mintty/lang/ru.po
+Installing file cygfile:///usr/share/mintty/lang/zh_CN.po
+Installing file cygfile:///usr/share/mintty/lang/zh_TW.po
+Installing file cygfile:///usr/share/mintty/sounds/
+Installing file cygfile:///usr/share/mintty/sounds/ambient-drip-lo.wav
+Installing file cygfile:///usr/share/mintty/sounds/ambient-drop.wav
+Installing file cygfile:///usr/share/mintty/sounds/ambient-glass.wav
+Installing file cygfile:///usr/share/mintty/sounds/ambient-splash.wav
+Installing file cygfile:///usr/share/mintty/sounds/ambient-swoosh.wav
+Installing file cygfile:///usr/share/mintty/sounds/ambient-uncork.wav
+Installing file cygfile:///usr/share/mintty/sounds/BOING.WAV
+Installing file cygfile:///usr/share/mintty/sounds/percussive-bongo-hi.wav
+Installing file cygfile:///usr/share/mintty/sounds/percussive-bongo-lo.wav
+Installing file cygfile:///usr/share/mintty/sounds/percussive-gong.wav
+Installing file cygfile:///usr/share/mintty/sounds/percussive-knock.wav
+Installing file cygfile:///usr/share/mintty/sounds/percussive-synthkick-lo.wav
+Installing file cygfile:///usr/share/mintty/sounds/README.md
+Installing file cygfile:///usr/share/mintty/sounds/resonant-flute.wav
+Installing file cygfile:///usr/share/mintty/sounds/resonant-organ.wav
+Installing file cygfile:///usr/share/mintty/sounds/resonant-reverb.wav
+Installing file cygfile:///usr/share/mintty/sounds/resonant-twang.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-bass.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-gib.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-honk.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-intruder.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-rave.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-select.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-spike.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-sproing.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-square.wav
+Installing file cygfile:///usr/share/mintty/sounds/vocal-boo.wav
+Installing file cygfile:///usr/share/mintty/sounds/vocal-hah.wav
+Installing file cygfile:///usr/share/mintty/sounds/vocal-yip.wav
+Installing file cygfile:///usr/share/mintty/themes/
+Installing file cygfile:///usr/share/mintty/themes/dracula
+Installing file cygfile:///usr/share/mintty/themes/flat-ui
+Installing file cygfile:///usr/share/mintty/themes/html
+Installing file cygfile:///usr/share/mintty/themes/mintty
+Installing file cygfile:///usr/share/mintty/themes/nord
+Installing file cygfile:///usr/share/mintty/themes/rosipov
+Installing file cygfile:///usr/share/mintty/themes/vga
+Installing file cygfile:///usr/share/mintty/themes/windows10
+Installing file cygfile:///usr/share/mintty/themes/xterm
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/10/02 15:00:25 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/nano/nano-2.8.7-1.tar.xz
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/nano.exe
+Installing file cygfile:///usr/bin/rnano
+io_stream::mklink (cygfile:///usr/bin/rnano->cygfile://nano)
+Installing file cygfile:///usr/lib/
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/nano/
+Installing file cygfile:///usr/share/doc/nano/AUTHORS
+Installing file cygfile:///usr/share/doc/nano/ChangeLog
+Installing file cygfile:///usr/share/doc/nano/COPYING
+Installing file cygfile:///usr/share/doc/nano/html/
+Installing file cygfile:///usr/share/doc/nano/html/faq.html
+Installing file cygfile:///usr/share/doc/nano/html/nano.1.html
+Installing file cygfile:///usr/share/doc/nano/html/nano.html
+Installing file cygfile:///usr/share/doc/nano/html/nanorc.5.html
+Installing file cygfile:///usr/share/doc/nano/html/rnano.1.html
+Installing file cygfile:///usr/share/doc/nano/NEWS
+Installing file cygfile:///usr/share/doc/nano/README
+Installing file cygfile:///usr/share/doc/nano/THANKS
+Installing file cygfile:///usr/share/doc/nano/TODO
+Installing file cygfile:///usr/share/info/
+Installing file cygfile:///usr/share/info/nano.info.gz
+Installing file cygfile:///usr/share/locale/
+Installing file cygfile:///usr/share/locale/bg/
+Installing file cygfile:///usr/share/locale/bg/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/bg/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/ca/
+Installing file cygfile:///usr/share/locale/ca/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ca/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/cs/
+Installing file cygfile:///usr/share/locale/cs/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/cs/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/da/
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/de/
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/eo/
+Installing file cygfile:///usr/share/locale/eo/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/eo/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/es/
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/eu/
+Installing file cygfile:///usr/share/locale/eu/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/eu/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/fi/
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/fr/
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/ga/
+Installing file cygfile:///usr/share/locale/ga/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ga/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/gl/
+Installing file cygfile:///usr/share/locale/gl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/gl/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/hr/
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/hu/
+Installing file cygfile:///usr/share/locale/hu/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/hu/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/id/
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/it/
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/ja/
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/ms/
+Installing file cygfile:///usr/share/locale/ms/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ms/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/nb/
+Installing file cygfile:///usr/share/locale/nb/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/nb/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/nl/
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/nn/
+Installing file cygfile:///usr/share/locale/nn/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/nn/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/pl/
+Installing file cygfile:///usr/share/locale/pl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pl/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/pt_BR/
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/ro/
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/ru/
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/sl/
+Installing file cygfile:///usr/share/locale/sl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sl/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/sr/
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/sv/
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/tr/
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/uk/
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/vi/
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/zh_CN/
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/locale/zh_TW/
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/nano.mo
+Installing file cygfile:///usr/share/man/
+Installing file cygfile:///usr/share/man/man1/
+Installing file cygfile:///usr/share/man/man1/nano.1.gz
+Installing file cygfile:///usr/share/man/man1/rnano.1.gz
+Installing file cygfile:///usr/share/man/man5/
+Installing file cygfile:///usr/share/man/man5/nanorc.5.gz
+Installing file cygfile:///usr/share/nano/
+Installing file cygfile:///usr/share/nano/asm.nanorc
+Installing file cygfile:///usr/share/nano/autoconf.nanorc
+Installing file cygfile:///usr/share/nano/awk.nanorc
+Installing file cygfile:///usr/share/nano/c.nanorc
+Installing file cygfile:///usr/share/nano/changelog.nanorc
+Installing file cygfile:///usr/share/nano/cmake.nanorc
+Installing file cygfile:///usr/share/nano/css.nanorc
+Installing file cygfile:///usr/share/nano/debian.nanorc
+Installing file cygfile:///usr/share/nano/default.nanorc
+Installing file cygfile:///usr/share/nano/elisp.nanorc
+Installing file cygfile:///usr/share/nano/fortran.nanorc
+Installing file cygfile:///usr/share/nano/gentoo.nanorc
+Installing file cygfile:///usr/share/nano/go.nanorc
+Installing file cygfile:///usr/share/nano/groff.nanorc
+Installing file cygfile:///usr/share/nano/guile.nanorc
+Installing file cygfile:///usr/share/nano/html.nanorc
+Installing file cygfile:///usr/share/nano/java.nanorc
+Installing file cygfile:///usr/share/nano/javascript.nanorc
+Installing file cygfile:///usr/share/nano/json.nanorc
+Installing file cygfile:///usr/share/nano/lua.nanorc
+Installing file cygfile:///usr/share/nano/makefile.nanorc
+Installing file cygfile:///usr/share/nano/man.nanorc
+Installing file cygfile:///usr/share/nano/mgp.nanorc
+Installing file cygfile:///usr/share/nano/mutt.nanorc
+Installing file cygfile:///usr/share/nano/nanohelp.nanorc
+Installing file cygfile:///usr/share/nano/nanorc.nanorc
+Installing file cygfile:///usr/share/nano/nftables.nanorc
+Installing file cygfile:///usr/share/nano/objc.nanorc
+Installing file cygfile:///usr/share/nano/ocaml.nanorc
+Installing file cygfile:///usr/share/nano/patch.nanorc
+Installing file cygfile:///usr/share/nano/perl.nanorc
+Installing file cygfile:///usr/share/nano/php.nanorc
+Installing file cygfile:///usr/share/nano/po.nanorc
+Installing file cygfile:///usr/share/nano/postgresql.nanorc
+Installing file cygfile:///usr/share/nano/pov.nanorc
+Installing file cygfile:///usr/share/nano/python.nanorc
+Installing file cygfile:///usr/share/nano/ruby.nanorc
+Installing file cygfile:///usr/share/nano/rust.nanorc
+Installing file cygfile:///usr/share/nano/sh.nanorc
+Installing file cygfile:///usr/share/nano/spec.nanorc
+Installing file cygfile:///usr/share/nano/tcl.nanorc
+Installing file cygfile:///usr/share/nano/tex.nanorc
+Installing file cygfile:///usr/share/nano/texinfo.nanorc
+Installing file cygfile:///usr/share/nano/xml.nanorc
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/10/02 15:00:25 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/texinfo-6.7-1.tar.xz
+Installing file cygfile:///usr/bin/makeinfo
+io_stream::mklink (cygfile:///usr/bin/makeinfo->cygfile://texi2any)
+Installing file cygfile:///usr/bin/pod2texi
+Installing file cygfile:///usr/bin/texi2any
+Installing file cygfile:///usr/lib/texinfo/
+Installing file cygfile:///usr/lib/texinfo/MiscXS.dll
+Installing file cygfile:///usr/lib/texinfo/MiscXS.la
+Installing file cygfile:///usr/lib/texinfo/Parsetexi.dll
+Installing file cygfile:///usr/lib/texinfo/Parsetexi.la
+Installing file cygfile:///usr/lib/texinfo/XSParagraph.dll
+Installing file cygfile:///usr/lib/texinfo/XSParagraph.la
+Installing file cygfile:///usr/share/doc/texinfo/
+Installing file cygfile:///usr/share/doc/texinfo/AUTHORS
+Installing file cygfile:///usr/share/doc/texinfo/ChangeLog
+Installing file cygfile:///usr/share/doc/texinfo/COPYING
+Installing file cygfile:///usr/share/doc/texinfo/NEWS
+Installing file cygfile:///usr/share/doc/texinfo/README
+Installing file cygfile:///usr/share/doc/texinfo/TODO
+Installing file cygfile:///usr/share/info/texinfo.info-1.gz
+Installing file cygfile:///usr/share/info/texinfo.info-2.gz
+Installing file cygfile:///usr/share/info/texinfo.info-3.gz
+Installing file cygfile:///usr/share/info/texinfo.info.gz
+Installing file cygfile:///usr/share/man/man5/texinfo.5.gz
+Installing file cygfile:///usr/share/man/man1/makeinfo.1.gz
+Installing file cygfile:///usr/share/man/man1/pod2texi.1.gz
+Installing file cygfile:///usr/share/man/man1/texi2any.1.gz
+Installing file cygfile:///usr/share/texinfo/
+Installing file cygfile:///usr/share/texinfo/DebugTexinfo/
+Installing file cygfile:///usr/share/texinfo/DebugTexinfo/DebugTree.pm
+Installing file cygfile:///usr/share/texinfo/htmlxref.cnf
+Installing file cygfile:///usr/share/texinfo/init/
+Installing file cygfile:///usr/share/texinfo/init/book.pm
+Installing file cygfile:///usr/share/texinfo/init/chm.pm
+Installing file cygfile:///usr/share/texinfo/init/html32.pm
+Installing file cygfile:///usr/share/texinfo/init/latex2html.pm
+Installing file cygfile:///usr/share/texinfo/init/tex4ht.pm
+Installing file cygfile:///usr/share/texinfo/lib/
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/gettext_pp.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/Messages.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/Recode/
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/Recode/_Aliases.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/Recode/_Conversions.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/Recode.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ASMO_449.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ATARI_ST.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ATARI_ST_EURO.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP10007.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP1250.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP1251.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP1252.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP1253.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP1254.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP1256.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CP1257.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CSN_369103.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/CWI.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/DEC_MCS.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_AT_DE.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_AT_DE_A.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_CA_FR.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_DK_NO.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_DK_NO_A.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_ES.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_ES_A.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_ES_S.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_FI_SE.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_FI_SE_A.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_FR.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_IS_FRISS.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_IT.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_PT.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_UK.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/EBCDIC_US.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ECMA_CYRILLIC.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/GEORGIAN_ACADEMY.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/GEORGIAN_PS.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/GOST_19768_74.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/GREEK7.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/GREEK7_OLD.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/GREEK_CCITT.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/HP_ROMAN8.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM037.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM038.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM1004.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM1026.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM1047.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM256.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM273.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM274.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM275.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM277.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM278.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM280.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM281.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM284.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM285.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM290.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM297.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM420.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM423.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM424.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM437.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM500.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM850.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM851.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM852.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM855.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM857.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM860.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM861.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM862.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM863.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM864.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM865.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM866.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM868.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM869.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM870.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM871.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM874.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM875.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM880.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM891.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM903.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM904.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM905.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IBM918.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/IEC_P27_1.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/INIS.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/INIS_8.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/INIS_CYRILLIC.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_10367_BOX.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_2033_1983.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_5427.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_5427_EXT.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_5428.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_1.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_10.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_11.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_13.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_14.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_15.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_16.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_2.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_3.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_4.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_5.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_6.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_7.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_8.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/ISO_8859_9.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/KOI8_R.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/KOI8_RU.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/KOI8_T.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/KOI8_U.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/KOI_8.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/LATIN_GREEK.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/LATIN_GREEK_1.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACARABIC.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACCROATIAN.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACCYRILLIC.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACGREEK.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACHEBREW.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACICELAND.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACINTOSH.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACROMANIA.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACTHAI.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACTURKISH.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MACUKRAINE.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MAC_IS.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MAC_SAMI.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/MAC_UK.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/NATS_DANO.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/NATS_SEFI.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/NEXTSTEP.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/SAMI_WS2.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/TIS_620.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/US_ASCII.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/UTF_8.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/VISCII.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData/_Encode.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/TextDomain.pm
+Installing file cygfile:///usr/share/texinfo/lib/libintl-perl/lib/Locale/Util.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x00.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x01.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x02.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x03.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x04.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x05.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x06.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x07.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x09.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x0a.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x0b.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x0c.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x0d.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x0e.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x0f.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x10.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x11.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x12.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x13.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x14.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x15.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x16.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x17.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x18.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x1e.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x1f.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x20.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x21.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x22.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x23.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x24.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x25.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x26.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x27.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x28.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x2e.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x2f.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x30.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x31.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x32.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x33.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x4d.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x4e.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x4f.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x50.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x51.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x52.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x53.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x54.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x55.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x56.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x57.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x58.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x59.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x5a.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x5b.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x5c.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x5d.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x5e.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x5f.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x60.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x61.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x62.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x63.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x64.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x65.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x66.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x67.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x68.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x69.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x6a.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x6b.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x6c.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x6d.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x6e.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x6f.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x70.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x71.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x72.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x73.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x74.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x75.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x76.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x77.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x78.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x79.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x7a.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x7b.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x7c.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x7d.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x7e.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x7f.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x80.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x81.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x82.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x83.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x84.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x85.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x86.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x87.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x88.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x89.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x8a.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x8b.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x8c.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x8d.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x8e.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x8f.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x90.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x91.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x92.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x93.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x94.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x95.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x96.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x97.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x98.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x99.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x9a.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x9b.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x9c.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x9d.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x9e.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/x9f.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xa0.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xa1.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xa2.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xa3.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xa4.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xac.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xad.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xae.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xaf.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb0.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb1.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb2.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb3.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb4.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb5.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb6.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb7.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb8.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xb9.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xba.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xbb.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xbc.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xbd.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xbe.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xbf.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc0.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc1.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc2.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc3.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc4.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc5.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc6.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc7.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc8.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xc9.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xca.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xcb.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xcc.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xcd.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xce.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xcf.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd0.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd1.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd2.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd3.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd4.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd5.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd6.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xd7.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xf9.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xfa.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xfb.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xfc.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xfd.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xfe.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode/xff.pm
+Installing file cygfile:///usr/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode.pm
+Installing file cygfile:///usr/share/texinfo/lib/Unicode-EastAsianWidth/
+Installing file cygfile:///usr/share/texinfo/lib/Unicode-EastAsianWidth/lib/
+Installing file cygfile:///usr/share/texinfo/lib/Unicode-EastAsianWidth/lib/Unicode/
+Installing file cygfile:///usr/share/texinfo/lib/Unicode-EastAsianWidth/lib/Unicode/EastAsianWidth.pm
+Installing file cygfile:///usr/share/texinfo/Pod-Simple-Texinfo/
+Installing file cygfile:///usr/share/texinfo/Pod-Simple-Texinfo/Pod/
+Installing file cygfile:///usr/share/texinfo/Pod-Simple-Texinfo/Pod/Simple/
+Installing file cygfile:///usr/share/texinfo/Pod-Simple-Texinfo/Pod/Simple/Texinfo.pm
+Installing file cygfile:///usr/share/texinfo/texindex.awk
+Installing file cygfile:///usr/share/texinfo/Texinfo/
+Installing file cygfile:///usr/share/texinfo/Texinfo/Common.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/Converter.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/DocBook.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/HTML.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/Info.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/IXIN.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/IXINSXML.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/Line.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/NodeNameNormalization.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/Paragraph.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/ParagraphNonXS.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/PlainTexinfo.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/Plaintext.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/Texinfo.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/TexinfoSXML.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/TexinfoXML.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/Text.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/TextContent.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/UnFilled.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Convert/Unicode.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Documentlanguages.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Encoding.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/MiscXS.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/ModulePath.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Parser.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/ParserNonXS.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Report.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Structuring.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/Transformations.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/XS/
+Installing file cygfile:///usr/share/texinfo/Texinfo/XS/parsetexi/
+Installing file cygfile:///usr/share/texinfo/Texinfo/XS/parsetexi/Parsetexi.pm
+Installing file cygfile:///usr/share/texinfo/Texinfo/XSLoader.pm
+Installing file cygfile:///usr/share/texinfo/texinfo.dtd
+Visited: 153 nodes out of 11292 while creating dependency order.
+Dependency order of packages: cygwin dash _autorebase libiconv2 libintl8 alternatives libattr1 libgmp10 tzdata terminfo-extra terminfo libncursesw10 libreadline7 tzcode coreutils bash info libsigsegv2 m4 libcrypt2 libgcc1 libstdc++6 libdb5.3 libgdbm6 libgdbm_compat4 perl_autorebase perl_base perl autoconf2.1 autoconf2.5 sed autoconf perl-Unicode-Normalize texinfo liblzma5 xz automake1.10 automake1.11 perl-Test-Harness automake1.12 automake1.13 automake1.14 automake1.15 automake1.16 automake1.9 automake base-cygwin findutils base-files binutils libbz2_1 bzip2 libffi6 libp11-kit0 p11-kit libtasn1_6 p11-kit-trust ca-certificates liblz4_1 libnettle6 zlib0 libxml2 libarchive13 libbrotlicommon1 libbrotlidec1 libcom_err2 libkrb5support0 libk5crypto3 libkrb5_3 libgssapi_krb5_2 libunistring2 libidn2_0 libnghttp2_14 libcrypt0 crypto-policies libssl1.1 libsasl2_3 libopenldap2_4_2 publicsuffix-list-dafsa libpsl5 libssh-common libssh4 libcurl4 libexpat1 libjsoncpp19 librhash0 libuuid1 libuv1 cmake libpopt-common libpopt0 cygutils cygwin-devel diffutils editrights file libmpfr6 gawk libatomic1 libgomp1 libisl15 libmpc3 libquadmath0 w32api-headers w32api-runtime windows-default-manifest gcc-core gcc-g++ libgdbm4 libsqlite3_0 libpkgconf3 pkgconf pkg-config libuuid-devel python-pip-wheel python-setuptools-wheel python27 python2 gdb libargp getent libpcre1 grep groff gzip hostname ipc-utils less libblkid1 libfdisk1 libiconv libisl13 libmpfr4 libpipeline1 libsmartcols1 libssl1.0 login util-linux man-db mingw64-x86_64-binutils mingw64-x86_64-winpthreads mingw64-x86_64-headers mingw64-x86_64-runtime mingw64-x86_64-windows-default-manifest mintty nano ncurses openssl rebase run tar vim-minimal which 
+2019/10/02 15:00:26 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+Updating package information in /var/cache/rebase/rebase_pkg.
+	from /etc/setup/gdb.lst.gz...
+	from /etc/setup/info.lst.gz...
+	from /etc/setup/mintty.lst.gz...
+	from /etc/setup/nano.lst.gz...
+	from /etc/setup/texinfo.lst.gz...
+Updating rebase information for installed dynamic objects in /var/cache/rebase/rebase_lst.
+Updating rebase information for installed executables in /var/cache/rebase/rebase_exe.
+removing /var/cache/rebase/rebase_dyn
+creating empty /var/cache/rebase/rebase_dyn
+Looking for dynamic language modules/libraries in:
+  /usr/lib/python2.7/site-packages
+Updating rebase information for dynamic language modules/libraries /var/cache/rebase/rebase_dyn.
+Updating rebase information for user-defined dynamic objects /var/cache/rebase/rebase_user.
+Updating rebase information for user-defined executables /var/cache/rebase/rebase_user_exe.
+Rebasing with list /var/cache/rebase/rebase_all, built from /var/cache/rebase/rebase_lst /var/cache/rebase/rebase_dyn /var/cache/rebase/rebase_user.
+2019/10/02 15:01:11 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+Rebuilding info directory
+install-info: warning: no info dir entry in `/usr/share/info/automake-history.info.gz'
+2019/10/02 15:01:25 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2019/10/02 15:01:25 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+Program directory for program link: C:\Users\marcos.novalbos\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+Desktop directory for desktop link: C:\Users\marcos.novalbos\Desktop
+2019/10/02 15:02:20 note: Installation Complete
+2019/10/02 15:02:20 Ending cygwin install

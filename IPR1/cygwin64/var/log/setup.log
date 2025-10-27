@@ -1,0 +1,724 @@
+2019/09/04 11:41:51 Starting cygwin install, version 2.897
+2019/09/04 11:41:51 User has NO backup/restore rights
+2019/09/04 11:41:51 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2019/09/04 11:41:51 Current Directory: C:\Users\marcos.novalbos\Downloads
+2019/09/04 11:41:51 Could not open Service control manager
+2019/09/04 11:41:55 source: network install
+2019/09/04 11:41:58 root: C:\cygwin64 user
+2019/09/04 11:41:59 Selected local directory: C:\Users\marcos.novalbos\Downloads
+2019/09/04 11:42:01 net: Preconfig
+2019/09/04 11:42:06 site: http://cygwin.mirror.constant.com/
+2019/09/04 11:42:06 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst.sig
+2019/09/04 11:42:06 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst
+2019/09/04 11:42:09 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2019/09/04 11:42:09 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2019/09/04 11:42:09 solving: 37 tasks, update: yes, use test packages: no
+2019/09/04 11:44:09 solving: 76 tasks, update: no, use test packages: no
+2019/09/04 11:44:09 Augmented Transaction List:
+2019/09/04 11:44:09    0 install                                     base-cygwin               3.8-1
+2019/09/04 11:44:09    1 install                                          cygwin             3.0.7-1
+2019/09/04 11:44:09    2 install                                  libpopt-common              1.16-2
+2019/09/04 11:44:09    3 install                                        terminfo      6.1-1.20190727
+2019/09/04 11:44:09    4 install                                          tzdata             2019b-1
+2019/09/04 11:44:09    5 install         mingw64-x86_64-windows-default-manifest               6.4-1
+2019/09/04 11:44:09    6 install                      mingw64-x86_64-winpthreads             6.0.0-1
+2019/09/04 11:44:09    7 install                                 perl_autorebase            5.26.3-2
+2019/09/04 11:44:09    8 install                                   libssh-common             0.8.7-1
+2019/09/04 11:44:09    9 install                         publicsuffix-list-dafsa          20190717-1
+2019/09/04 11:44:09   10 install                                       libcrypt0               2.1-1
+2019/09/04 11:44:09   11 install                                      libnettle6             3.4.1-1
+2019/09/04 11:44:09   12 install                                   libnghttp2_14            1.37.0-1
+2019/09/04 11:44:09   13 install                                       libcrypt2             4.4.4-1
+2019/09/04 11:44:09   14 install                                          libuv1            1.24.1-1
+2019/09/04 11:44:09   15 install                                       librhash0             1.3.7-1
+2019/09/04 11:44:09   16 install                                       libexpat1             2.2.6-1
+2019/09/04 11:44:09   17 install                                libbrotlicommon1             1.0.7-1
+2019/09/04 11:44:09   18 install                                        liblz4_1             1.7.5-1
+2019/09/04 11:44:09   19 install                                           zlib0            1.2.11-1
+2019/09/04 11:44:09   20 install                                           which              2.20-2
+2019/09/04 11:44:09   21 install                                             run             1.3.4-2
+2019/09/04 11:44:09   22 install                                          mintty             3.0.2-1
+2019/09/04 11:44:09   23 install                                           login              1.13-1
+2019/09/04 11:44:09   24 install                                      libtasn1_6              4.14-1
+2019/09/04 11:44:09   25 install                                     libsigsegv2              2.10-2
+2019/09/04 11:44:09   26 install                                    libpipeline1             1.4.0-1
+2019/09/04 11:44:09   27 install                                        libpcre1              8.43-1
+2019/09/04 11:44:09   28 install                                        liblzma5             5.2.4-1
+2019/09/04 11:44:09   29 install                                       libiconv2              1.14-3
+2019/09/04 11:44:09   30 install                                        libgmp10             6.1.2-1
+2019/09/04 11:44:09   31 install                                         libgcc1             7.4.0-1
+2019/09/04 11:44:09   32 install                                         libffi6             3.2.1-2
+2019/09/04 11:44:09   33 install                                        libbz2_1             1.0.8-1
+2019/09/04 11:44:09   34 install                                         libargp          20110921-3
+2019/09/04 11:44:09   35 install                                       ipc-utils               1.0-2
+2019/09/04 11:44:09   36 install                                        hostname              3.13-1
+2019/09/04 11:44:09   37 install                                      editrights              1.03-1
+2019/09/04 11:44:09   38 install                                            dash           0.5.9.1-1
+2019/09/04 11:44:09   39 install                                  terminfo-extra      6.1-1.20190727
+2019/09/04 11:44:09   40 install                          mingw64-x86_64-headers             6.0.0-1
+2019/09/04 11:44:09   41 install                                   libbrotlidec1             1.0.7-1
+2019/09/04 11:44:09   42 install                                            file              5.32-1
+2019/09/04 11:44:09   43 install                                              m4            1.4.18-1
+2019/09/04 11:44:09   44 install                                        libintl8          0.19.8.1-2
+2019/09/04 11:44:09   45 install                                        libisl13            0.14.1-1
+2019/09/04 11:44:09   46 install                                     libcom_err2            1.44.5-1
+2019/09/04 11:44:09   47 install                                   libunistring2            0.9.10-1
+2019/09/04 11:44:09   48 install                                        libmpfr4           3.1.6-1p1
+2019/09/04 11:44:09   49 install                                      libstdc++6             7.4.0-1
+2019/09/04 11:44:09   50 install                                        libmpfr6             4.0.2-1
+2019/09/04 11:44:09   51 install                                          getent           2.18.90-4
+2019/09/04 11:44:09   52 install                                     _autorebase            001007-1
+2019/09/04 11:44:09   53 install                                   libncursesw10      6.1-1.20190727
+2019/09/04 11:44:09   54 install                          mingw64-x86_64-runtime             6.0.0-1
+2019/09/04 11:44:09   55 install                                 libkrb5support0            1.15.2-2
+2019/09/04 11:44:09   56 install                                        libgdbm6            1.18.1-1
+2019/09/04 11:44:09   57 install                         mingw64-x86_64-binutils   2.29.1.787c9873-1
+2019/09/04 11:44:09   58 install                                             sed               4.4-1
+2019/09/04 11:44:09   59 install                                        libuuid1            2.33.1-1
+2019/09/04 11:44:09   60 install                                   libsmartcols1            2.33.1-1
+2019/09/04 11:44:09   61 install                                        libpopt0              1.16-2
+2019/09/04 11:44:09   62 install                                     libp11-kit0           0.23.15-1
+2019/09/04 11:44:09   63 install                                        libiconv              1.14-3
+2019/09/04 11:44:09   64 install                                        libgdbm4              1.13-1
+2019/09/04 11:44:09   65 install                                        libattr1            2.4.48-2
+2019/09/04 11:44:09   66 install                                       diffutils               3.5-2
+2019/09/04 11:44:09   67 install                                    alternatives          1.3.30c-10
+2019/09/04 11:44:09   68 install                                       libidn2_0             2.2.0-1
+2019/09/04 11:44:09   69 install                                        libdb5.3            5.3.28-2
+2019/09/04 11:44:09   70 install                                    libjsoncpp19             1.8.4-1
+2019/09/04 11:44:09   71 install                                         libmpc3             1.1.0-1
+2019/09/04 11:44:09   72 install                                     vim-minimal          8.1.1772-1
+2019/09/04 11:44:09   73 install                                         ncurses      6.1-1.20190727
+2019/09/04 11:44:09   74 install                                    libreadline7             7.0.3-3
+2019/09/04 11:44:09   75 install                                            less               530-1
+2019/09/04 11:44:09   76 install                                            info               6.6-1
+2019/09/04 11:44:09   77 install                                    libk5crypto3            1.15.2-2
+2019/09/04 11:44:09   78 install                                 libgdbm_compat4            1.18.1-1
+2019/09/04 11:44:09   79 install                                       libblkid1            2.33.1-1
+2019/09/04 11:44:09   80 install                                        cygutils            1.4.16-2
+2019/09/04 11:44:09   81 install                                   p11-kit-trust           0.23.15-1
+2019/09/04 11:44:09   82 install                                         p11-kit           0.23.15-1
+2019/09/04 11:44:09   83 install                                         libpsl5            0.21.0-1
+2019/09/04 11:44:09   84 install                                         libxml2             2.9.9-2
+2019/09/04 11:44:09   85 install                                            gawk             5.0.1-1
+2019/09/04 11:44:09   86 install                                            bash            4.4.12-3
+2019/09/04 11:44:09   87 install                                       libkrb5_3            1.15.2-2
+2019/09/04 11:44:09   88 install                                       perl_base            5.26.3-2
+2019/09/04 11:44:09   89 install                                       libfdisk1            2.33.1-1
+2019/09/04 11:44:09   90 install                                    libarchive13             3.3.2-1
+2019/09/04 11:44:09   91 install                                          tzcode             2019b-1
+2019/09/04 11:44:09   92 install                                libgssapi_krb5_2            1.15.2-2
+2019/09/04 11:44:09   93 install                                            perl            5.26.3-2
+2019/09/04 11:44:09   94 install                                      util-linux            2.33.1-1
+2019/09/04 11:44:09   95 install                                       coreutils              8.26-2
+2019/09/04 11:44:09   96 install                               perl-Test-Harness              3.42-1
+2019/09/04 11:44:09   97 install                                         texinfo               6.6-1
+2019/09/04 11:44:09   98 install                                     autoconf2.1             2.13-12
+2019/09/04 11:44:09   99 install                                     autoconf2.5              2.69-4
+2019/09/04 11:44:09  100 install                                              xz             5.2.4-1
+2019/09/04 11:44:09  101 install                         mingw64-x86_64-gcc-core             6.4.0-2
+2019/09/04 11:44:09  102 install                                            gzip               1.8-1
+2019/09/04 11:44:09  103 install                                           groff            1.22.4-1
+2019/09/04 11:44:09  104 install                                            grep               3.0-2
+2019/09/04 11:44:09  105 install                                       findutils             4.6.0-1
+2019/09/04 11:44:09  106 install                                 crypto-policies          20190218-1
+2019/09/04 11:44:09  107 install                                 ca-certificates              2.32-1
+2019/09/04 11:44:09  108 install                                           bzip2             1.0.8-1
+2019/09/04 11:44:09  109 install                                        autoconf                13-1
+2019/09/04 11:44:09  110 install                          mingw64-x86_64-gcc-g++             6.4.0-2
+2019/09/04 11:44:09  111 install                                          man-db           2.7.6.1-1
+2019/09/04 11:44:09  112 install                                          rebase             4.4.4-1
+2019/09/04 11:44:09  113 install                                      base-files               4.3-2
+2019/09/04 11:44:09  114 install                                       libssl1.0            1.0.2s-1
+2019/09/04 11:44:09  115 install                                       libssl1.1            1.1.1c-1
+2019/09/04 11:44:09  116 install                                             tar              1.29-1
+2019/09/04 11:44:09  117 install                                     automake1.9            1.9.6-11
+2019/09/04 11:44:09  118 install                                    automake1.15            1.15.1-2
+2019/09/04 11:44:09  119 install                                    automake1.14            1.14.1-3
+2019/09/04 11:44:09  120 install                                    automake1.13            1.13.4-2
+2019/09/04 11:44:09  121 install                                    automake1.12            1.12.6-3
+2019/09/04 11:44:09  122 install                                    automake1.11            1.11.6-3
+2019/09/04 11:44:09  123 install                                    automake1.10            1.10.3-3
+2019/09/04 11:44:09  124 install                                    automake1.16            1.16.1-1
+2019/09/04 11:44:09  125 install                                         libssh4             0.8.7-1
+2019/09/04 11:44:09  126 install                                libopenldap2_4_2            2.4.48-1
+2019/09/04 11:44:09  127 install                                         openssl            1.1.1c-1
+2019/09/04 11:44:09  128 install                                        automake                11-1
+2019/09/04 11:44:09  129 install                                      libsasl2_3           2.1.26-11
+2019/09/04 11:44:09  130 install                                        libcurl4            7.65.3-1
+2019/09/04 11:44:09  131 install                                           cmake            3.14.5-1
+2019/09/04 11:44:18 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2019/09/04 11:44:19 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygwin/cygwin-3.0.7-1.tar.xz
+2019/09/04 11:44:19 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.16-2.tar.xz
+2019/09/04 11:44:19 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/terminfo/terminfo-6.1-1.20190727.tar.xz
+2019/09/04 11:44:19 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/tzdata/tzdata-2019b-1.tar.xz
+2019/09/04 11:44:19 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-windows-default-manifest/mingw64-x86_64-windows-default-manifest-6.4-1.tar.xz
+2019/09/04 11:44:19 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-winpthreads/mingw64-x86_64-winpthreads-6.0.0-1.tar.xz
+2019/09/04 11:44:20 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl/perl_autorebase/perl_autorebase-5.26.3-2.tar.xz
+2019/09/04 11:44:20 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh/libssh-common/libssh-common-0.8.7-1.tar.xz
+2019/09/04 11:44:20 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20190717-1.tar.xz
+2019/09/04 11:44:20 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/crypt/libcrypt0/libcrypt0-2.1-1.tar.xz
+2019/09/04 11:44:20 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/nettle/libnettle6/libnettle6-3.4.1-1.tar.xz
+2019/09/04 11:44:20 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/nghttp2/libnghttp2_14/libnghttp2_14-1.37.0-1.tar.xz
+2019/09/04 11:44:20 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.4-1.tar.xz
+2019/09/04 11:44:20 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libuv/libuv1/libuv1-1.24.1-1.tar.xz
+2019/09/04 11:44:21 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/rhash/librhash0/librhash0-1.3.7-1.tar.xz
+2019/09/04 11:44:21 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/expat/libexpat1/libexpat1-2.2.6-1.tar.xz
+2019/09/04 11:44:21 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/brotli/libbrotlicommon1/libbrotlicommon1-1.0.7-1.tar.xz
+2019/09/04 11:44:21 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.7.5-1.tar.xz
+2019/09/04 11:44:21 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/zlib/zlib0/zlib0-1.2.11-1.tar.xz
+2019/09/04 11:44:21 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2019/09/04 11:44:21 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2019/09/04 11:44:22 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mintty/mintty-3.0.2-1.tar.xz
+2019/09/04 11:44:22 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/login/login-1.13-1.tar.xz
+2019/09/04 11:44:22 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2019/09/04 11:44:22 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2019/09/04 11:44:22 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.4.0-1.tar.xz
+2019/09/04 11:44:22 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pcre/libpcre1/libpcre1-8.43-1.tar.xz
+2019/09/04 11:44:22 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.4-1.tar.xz
+2019/09/04 11:44:23 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.14-3.tar.xz
+2019/09/04 11:44:23 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gmp/libgmp10/libgmp10-6.1.2-1.tar.xz
+2019/09/04 11:44:23 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libgcc1/libgcc1-7.4.0-1.tar.xz
+2019/09/04 11:44:23 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2019/09/04 11:44:23 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2019/09/04 11:44:23 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz
+2019/09/04 11:44:23 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2
+2019/09/04 11:44:23 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2019/09/04 11:44:24 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz
+2019/09/04 11:44:24 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/dash/dash-0.5.9.1-1.tar.xz
+2019/09/04 11:44:24 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/terminfo-extra/terminfo-extra-6.1-1.20190727.tar.xz
+2019/09/04 11:44:24 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-headers/mingw64-x86_64-headers-6.0.0-1.tar.xz
+2019/09/04 11:44:24 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/brotli/libbrotlidec1/libbrotlidec1-1.0.7-1.tar.xz
+2019/09/04 11:44:25 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/file/file-5.32-1.tar.xz
+2019/09/04 11:44:25 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/m4/m4-1.4.18-1.tar.xz
+2019/09/04 11:44:25 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gettext/libintl8/libintl8-0.19.8.1-2.tar.xz
+2019/09/04 11:44:25 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/isl/libisl13/libisl13-0.14.1-1.tar.xz
+2019/09/04 11:44:25 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+2019/09/04 11:44:25 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libunistring/libunistring2/libunistring2-0.9.10-1.tar.xz
+2019/09/04 11:44:25 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mpfr/libmpfr4/libmpfr4-3.1.6-1p1.tar.xz
+2019/09/04 11:44:26 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libstdc++6/libstdc++6-7.4.0-1.tar.xz
+2019/09/04 11:44:26 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.0.2-1.tar.xz
+2019/09/04 11:44:26 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz
+2019/09/04 11:44:26 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/_autorebase/_autorebase-001007-1.tar.xz
+2019/09/04 11:44:26 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.1-1.20190727.tar.xz
+2019/09/04 11:44:26 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-runtime/mingw64-x86_64-runtime-6.0.0-1.tar.xz
+2019/09/04 11:44:26 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+2019/09/04 11:44:27 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+2019/09/04 11:44:27 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-binutils/mingw64-x86_64-binutils-2.29.1.787c9873-1.tar.xz
+2019/09/04 11:44:27 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/sed/sed-4.4-1.tar.xz
+2019/09/04 11:44:27 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-1.tar.xz
+2019/09/04 11:44:27 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-1.tar.xz
+2019/09/04 11:44:27 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/popt/libpopt0/libpopt0-1.16-2.tar.xz
+2019/09/04 11:44:27 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.15-1.tar.xz
+2019/09/04 11:44:28 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libiconv/libiconv-1.14-3.tar.xz
+2019/09/04 11:44:28 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdbm/libgdbm4/libgdbm4-1.13-1.tar.xz
+2019/09/04 11:44:28 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/attr/libattr1/libattr1-2.4.48-2.tar.xz
+2019/09/04 11:44:28 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/diffutils/diffutils-3.5-2.tar.xz
+2019/09/04 11:44:28 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2019/09/04 11:44:28 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libidn2/libidn2_0/libidn2_0-2.2.0-1.tar.xz
+2019/09/04 11:44:28 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/db/libdb5.3/libdb5.3-5.3.28-2.tar.xz
+2019/09/04 11:44:29 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/jsoncpp/libjsoncpp19/libjsoncpp19-1.8.4-1.tar.xz
+2019/09/04 11:44:29 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.1.0-1.tar.xz
+2019/09/04 11:44:29 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.1.1772-1.tar.xz
+2019/09/04 11:44:29 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/ncurses-6.1-1.20190727.tar.xz
+2019/09/04 11:44:29 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/readline/libreadline7/libreadline7-7.0.3-3.tar.xz
+2019/09/04 11:44:29 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/less/less-530-1.tar.xz
+2019/09/04 11:44:29 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/info/info-6.6-1.tar.xz
+2019/09/04 11:44:30 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+2019/09/04 11:44:30 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdbm/libgdbm_compat4/libgdbm_compat4-1.18.1-1.tar.xz
+2019/09/04 11:44:30 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-1.tar.xz
+2019/09/04 11:44:30 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygutils/cygutils-1.4.16-2.tar.xz
+2019/09/04 11:44:30 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.15-1.tar.xz
+2019/09/04 11:44:30 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/p11-kit-0.23.15-1.tar.xz
+2019/09/04 11:44:30 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpsl/libpsl5/libpsl5-0.21.0-1.tar.xz
+2019/09/04 11:44:30 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libxml2/libxml2-2.9.9-2.tar.xz
+2019/09/04 11:44:31 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gawk/gawk-5.0.1-1.tar.xz
+2019/09/04 11:44:31 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2019/09/04 11:44:31 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+2019/09/04 11:44:31 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl/perl_base/perl_base-5.26.3-2.tar.xz
+2019/09/04 11:44:31 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-1.tar.xz
+2019/09/04 11:44:31 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libarchive/libarchive13/libarchive13-3.3.2-1.tar.xz
+2019/09/04 11:44:32 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tzcode/tzcode-2019b-1.tar.xz
+2019/09/04 11:44:32 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+2019/09/04 11:44:32 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl/perl-5.26.3-2.tar.xz
+2019/09/04 11:44:32 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/util-linux-2.33.1-1.tar.xz
+2019/09/04 11:44:32 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/coreutils/coreutils-8.26-2.tar.xz
+2019/09/04 11:44:32 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/perl-Test-Harness/perl-Test-Harness-3.42-1.tar.xz
+2019/09/04 11:44:33 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/texinfo-6.6-1.tar.xz
+2019/09/04 11:44:33 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/autoconf2.1/autoconf2.1-2.13-12.tar.bz2
+2019/09/04 11:44:33 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/autoconf2.5/autoconf2.5-2.69-4.tar.xz
+2019/09/04 11:44:33 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/xz/xz-5.2.4-1.tar.xz
+2019/09/04 11:44:35 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-core/mingw64-x86_64-gcc-core-6.4.0-2.tar.xz
+2019/09/04 11:44:35 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gzip/gzip-1.8-1.tar.xz
+2019/09/04 11:44:35 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/groff/groff-1.22.4-1.tar.xz
+2019/09/04 11:44:35 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/grep/grep-3.0-2.tar.xz
+2019/09/04 11:44:35 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/findutils/findutils-4.6.0-1.tar.xz
+2019/09/04 11:44:36 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2019/09/04 11:44:36 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/ca-certificates/ca-certificates-2.32-1.tar.xz
+2019/09/04 11:44:36 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2019/09/04 11:44:36 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/autoconf/autoconf-13-1.tar.bz2
+2019/09/04 11:44:36 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-g++/mingw64-x86_64-gcc-g++-6.4.0-2.tar.xz
+2019/09/04 11:44:37 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/man-db/man-db-2.7.6.1-1.tar.xz
+2019/09/04 11:44:37 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/rebase/rebase-4.4.4-1.tar.xz
+2019/09/04 11:44:37 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-files/base-files-4.3-2.tar.xz
+2019/09/04 11:44:37 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl10/libssl1.0/libssl1.0-1.0.2s-1.tar.xz
+2019/09/04 11:44:37 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1c-1.tar.xz
+2019/09/04 11:44:37 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tar/tar-1.29-1.tar.xz
+2019/09/04 11:44:38 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.9/automake1.9-1.9.6-11.tar.bz2
+2019/09/04 11:44:38 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.15/automake1.15-1.15.1-2.tar.xz
+2019/09/04 11:44:38 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.14/automake1.14-1.14.1-3.tar.xz
+2019/09/04 11:44:38 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.13/automake1.13-1.13.4-2.tar.xz
+2019/09/04 11:44:38 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.12/automake1.12-1.12.6-3.tar.xz
+2019/09/04 11:44:38 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.11/automake1.11-1.11.6-3.tar.xz
+2019/09/04 11:44:38 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.10/automake1.10-1.10.3-3.tar.xz
+2019/09/04 11:44:39 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.16/automake1.16-1.16.1-1.tar.xz
+2019/09/04 11:44:39 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh/libssh4/libssh4-0.8.7-1.tar.xz
+2019/09/04 11:44:39 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.4.48-1.tar.xz
+2019/09/04 11:44:39 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/openssl-1.1.1c-1.tar.xz
+2019/09/04 11:44:39 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake/automake-11-1.tar.xz
+2019/09/04 11:44:39 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.26-11.tar.xz
+2019/09/04 11:44:39 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/curl/libcurl4/libcurl4-7.65.3-1.tar.xz
+2019/09/04 11:44:40 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cmake/cmake-3.14.5-1.tar.xz
+2019/09/04 11:44:40 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2019/09/04 11:44:40 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygwin/cygwin-3.0.7-1.tar.xz
+2019/09/04 11:44:40 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.16-2.tar.xz
+2019/09/04 11:44:40 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/terminfo/terminfo-6.1-1.20190727.tar.xz
+2019/09/04 11:44:40 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/tzdata/tzdata-2019b-1.tar.xz
+2019/09/04 11:44:43 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-windows-default-manifest/mingw64-x86_64-windows-default-manifest-6.4-1.tar.xz
+2019/09/04 11:44:43 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-winpthreads/mingw64-x86_64-winpthreads-6.0.0-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl/perl_autorebase/perl_autorebase-5.26.3-2.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh/libssh-common/libssh-common-0.8.7-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20190717-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/crypt/libcrypt0/libcrypt0-2.1-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/nettle/libnettle6/libnettle6-3.4.1-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/nghttp2/libnghttp2_14/libnghttp2_14-1.37.0-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.4-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libuv/libuv1/libuv1-1.24.1-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/rhash/librhash0/librhash0-1.3.7-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/expat/libexpat1/libexpat1-2.2.6-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/brotli/libbrotlicommon1/libbrotlicommon1-1.0.7-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.7.5-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/zlib/zlib0/zlib0-1.2.11-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mintty/mintty-3.0.2-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/login/login-1.13-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.4.0-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pcre/libpcre1/libpcre1-8.43-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.4-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.14-3.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gmp/libgmp10/libgmp10-6.1.2-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libgcc1/libgcc1-7.4.0-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/dash/dash-0.5.9.1-1.tar.xz
+2019/09/04 11:44:44 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/terminfo-extra/terminfo-extra-6.1-1.20190727.tar.xz
+2019/09/04 11:44:50 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-headers/mingw64-x86_64-headers-6.0.0-1.tar.xz
+2019/09/04 11:44:55 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/brotli/libbrotlidec1/libbrotlidec1-1.0.7-1.tar.xz
+2019/09/04 11:44:55 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/file/file-5.32-1.tar.xz
+2019/09/04 11:44:55 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/m4/m4-1.4.18-1.tar.xz
+2019/09/04 11:44:55 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gettext/libintl8/libintl8-0.19.8.1-2.tar.xz
+2019/09/04 11:44:55 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/isl/libisl13/libisl13-0.14.1-1.tar.xz
+2019/09/04 11:44:55 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+2019/09/04 11:44:55 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libunistring/libunistring2/libunistring2-0.9.10-1.tar.xz
+2019/09/04 11:44:55 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mpfr/libmpfr4/libmpfr4-3.1.6-1p1.tar.xz
+2019/09/04 11:44:55 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libstdc++6/libstdc++6-7.4.0-1.tar.xz
+2019/09/04 11:44:55 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.0.2-1.tar.xz
+2019/09/04 11:44:55 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz
+2019/09/04 11:44:55 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/_autorebase/_autorebase-001007-1.tar.xz
+2019/09/04 11:44:55 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.1-1.20190727.tar.xz
+2019/09/04 11:44:55 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-runtime/mingw64-x86_64-runtime-6.0.0-1.tar.xz
+2019/09/04 11:45:04 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+2019/09/04 11:45:04 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+2019/09/04 11:45:04 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-binutils/mingw64-x86_64-binutils-2.29.1.787c9873-1.tar.xz
+2019/09/04 11:45:05 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/sed/sed-4.4-1.tar.xz
+2019/09/04 11:45:05 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-1.tar.xz
+2019/09/04 11:45:05 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-1.tar.xz
+2019/09/04 11:45:05 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/popt/libpopt0/libpopt0-1.16-2.tar.xz
+2019/09/04 11:45:05 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.15-1.tar.xz
+2019/09/04 11:45:05 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libiconv/libiconv-1.14-3.tar.xz
+2019/09/04 11:45:06 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdbm/libgdbm4/libgdbm4-1.13-1.tar.xz
+2019/09/04 11:45:06 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/attr/libattr1/libattr1-2.4.48-2.tar.xz
+2019/09/04 11:45:06 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/diffutils/diffutils-3.5-2.tar.xz
+2019/09/04 11:45:06 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2019/09/04 11:45:07 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libidn2/libidn2_0/libidn2_0-2.2.0-1.tar.xz
+2019/09/04 11:45:07 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/db/libdb5.3/libdb5.3-5.3.28-2.tar.xz
+2019/09/04 11:45:07 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/jsoncpp/libjsoncpp19/libjsoncpp19-1.8.4-1.tar.xz
+2019/09/04 11:45:07 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.1.0-1.tar.xz
+2019/09/04 11:45:07 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.1.1772-1.tar.xz
+2019/09/04 11:45:08 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/ncurses-6.1-1.20190727.tar.xz
+2019/09/04 11:45:08 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/readline/libreadline7/libreadline7-7.0.3-3.tar.xz
+2019/09/04 11:45:08 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/less/less-530-1.tar.xz
+2019/09/04 11:45:08 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/info/info-6.6-1.tar.xz
+2019/09/04 11:45:08 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+2019/09/04 11:45:08 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdbm/libgdbm_compat4/libgdbm_compat4-1.18.1-1.tar.xz
+2019/09/04 11:45:08 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-1.tar.xz
+2019/09/04 11:45:08 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygutils/cygutils-1.4.16-2.tar.xz
+2019/09/04 11:45:09 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.15-1.tar.xz
+2019/09/04 11:45:09 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/p11-kit-0.23.15-1.tar.xz
+2019/09/04 11:45:09 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpsl/libpsl5/libpsl5-0.21.0-1.tar.xz
+2019/09/04 11:45:09 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libxml2/libxml2-2.9.9-2.tar.xz
+2019/09/04 11:45:09 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gawk/gawk-5.0.1-1.tar.xz
+2019/09/04 11:45:09 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2019/09/04 11:45:10 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+2019/09/04 11:45:10 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl/perl_base/perl_base-5.26.3-2.tar.xz
+2019/09/04 11:45:11 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-1.tar.xz
+2019/09/04 11:45:11 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libarchive/libarchive13/libarchive13-3.3.2-1.tar.xz
+2019/09/04 11:45:11 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tzcode/tzcode-2019b-1.tar.xz
+2019/09/04 11:45:11 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+2019/09/04 11:45:11 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl/perl-5.26.3-2.tar.xz
+2019/09/04 11:45:14 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/util-linux-2.33.1-1.tar.xz
+2019/09/04 11:45:15 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/coreutils/coreutils-8.26-2.tar.xz
+2019/09/04 11:45:16 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/perl-Test-Harness/perl-Test-Harness-3.42-1.tar.xz
+2019/09/04 11:45:16 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/texinfo-6.6-1.tar.xz
+2019/09/04 11:45:18 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/autoconf2.1/autoconf2.1-2.13-12.tar.bz2
+2019/09/04 11:45:18 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/autoconf2.5/autoconf2.5-2.69-4.tar.xz
+2019/09/04 11:45:19 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/xz/xz-5.2.4-1.tar.xz
+2019/09/04 11:45:19 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-core/mingw64-x86_64-gcc-core-6.4.0-2.tar.xz
+2019/09/04 11:45:21 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gzip/gzip-1.8-1.tar.xz
+2019/09/04 11:45:21 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/groff/groff-1.22.4-1.tar.xz
+2019/09/04 11:45:23 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/grep/grep-3.0-2.tar.xz
+2019/09/04 11:45:23 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/findutils/findutils-4.6.0-1.tar.xz
+2019/09/04 11:45:23 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2019/09/04 11:45:23 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/ca-certificates/ca-certificates-2.32-1.tar.xz
+2019/09/04 11:45:23 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2019/09/04 11:45:24 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/autoconf/autoconf-13-1.tar.bz2
+2019/09/04 11:45:24 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-g++/mingw64-x86_64-gcc-g++-6.4.0-2.tar.xz
+2019/09/04 11:45:29 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/man-db/man-db-2.7.6.1-1.tar.xz
+2019/09/04 11:45:30 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/rebase/rebase-4.4.4-1.tar.xz
+2019/09/04 11:45:30 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-files/base-files-4.3-2.tar.xz
+2019/09/04 11:45:30 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl10/libssl1.0/libssl1.0-1.0.2s-1.tar.xz
+2019/09/04 11:45:30 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1c-1.tar.xz
+2019/09/04 11:45:30 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tar/tar-1.29-1.tar.xz
+2019/09/04 11:45:30 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.9/automake1.9-1.9.6-11.tar.bz2
+2019/09/04 11:45:31 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.15/automake1.15-1.15.1-2.tar.xz
+2019/09/04 11:45:31 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.14/automake1.14-1.14.1-3.tar.xz
+2019/09/04 11:45:31 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.13/automake1.13-1.13.4-2.tar.xz
+2019/09/04 11:45:32 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.12/automake1.12-1.12.6-3.tar.xz
+2019/09/04 11:45:32 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.11/automake1.11-1.11.6-3.tar.xz
+2019/09/04 11:45:32 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.10/automake1.10-1.10.3-3.tar.xz
+2019/09/04 11:45:33 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake1.16/automake1.16-1.16.1-1.tar.xz
+2019/09/04 11:45:33 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh/libssh4/libssh4-0.8.7-1.tar.xz
+2019/09/04 11:45:33 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.4.48-1.tar.xz
+2019/09/04 11:45:33 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/openssl-1.1.1c-1.tar.xz
+2019/09/04 11:45:33 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/automake/automake-11-1.tar.xz
+2019/09/04 11:45:34 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.26-11.tar.xz
+2019/09/04 11:45:34 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/curl/libcurl4/libcurl4-7.65.3-1.tar.xz
+2019/09/04 11:45:34 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cmake/cmake-3.14.5-1.tar.xz
+2019/09/04 11:45:40 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2019/09/04 11:46:37 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2019/09/04 11:46:44 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/coreutils.sh"
+2019/09/04 11:46:44 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/bash.sh"
+2019/09/04 11:46:45 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/autoconf.sh"
+2019/09/04 11:46:47 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/automake1.9.sh"
+2019/09/04 11:46:47 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/000-cygwin-post-install.sh"
+2019/09/04 11:46:48 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-mketc.sh"
+2019/09/04 11:46:49 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-profile.sh"
+2019/09/04 11:46:53 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/p11-kit.sh"
+2019/09/04 11:46:54 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2019/09/04 11:46:56 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/crypto-policies.sh"
+2019/09/04 11:47:06 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssl.sh"
+2019/09/04 11:47:06 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/libsasl2_3.sh"
+2019/09/04 11:47:07 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssl10.sh"
+2019/09/04 11:47:07 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/libxml2.sh"
+2019/09/04 11:47:07 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/man-db.sh"
+2019/09/04 11:47:08 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2019/09/04 11:47:08 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2019/09/04 11:47:38 note: Installation Complete
+2019/09/04 11:47:38 Ending cygwin install
+2019/09/04 11:49:46 Starting cygwin install, version 2.897
+2019/09/04 11:49:46 User has NO backup/restore rights
+2019/09/04 11:49:46 Current Directory: C:\Users\marcos.novalbos\Downloads
+2019/09/04 11:49:46 Could not open Service control manager
+2019/09/04 11:49:49 source: network install
+2019/09/04 11:49:51 root: C:\cygwin64 user
+2019/09/04 11:49:52 Selected local directory: C:\Users\marcos.novalbos\Downloads
+2019/09/04 11:49:53 net: Preconfig
+2019/09/04 11:49:55 site: http://cygwin.mirror.constant.com/
+2019/09/04 11:49:55 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst.sig
+2019/09/04 11:49:55 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst
+2019/09/04 11:49:57 solving: 0 tasks, update: yes, use test packages: no
+2019/09/04 11:50:30 solving: 3 tasks, update: no, use test packages: no
+2019/09/04 11:50:30 Augmented Transaction List:
+2019/09/04 11:50:30    0 install                                        libisl15            0.16.1-1
+2019/09/04 11:50:30    1 install                         mingw64-x86_64-gcc-core             7.4.0-1
+2019/09/04 11:50:30    2   erase                         mingw64-x86_64-gcc-core             6.4.0-2
+2019/09/04 11:50:30    3 install                          mingw64-x86_64-gcc-g++             7.4.0-1
+2019/09/04 11:50:30    4   erase                          mingw64-x86_64-gcc-g++             6.4.0-2
+2019/09/04 11:50:36 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/isl/libisl15/libisl15-0.16.1-1.tar.xz
+2019/09/04 11:50:37 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-core/mingw64-x86_64-gcc-core-7.4.0-1.tar.xz
+2019/09/04 11:50:38 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-g++/mingw64-x86_64-gcc-g++-7.4.0-1.tar.xz
+2019/09/04 11:50:38 Uninstalling mingw64-x86_64-gcc-core
+2019/09/04 11:50:38 Uninstalling mingw64-x86_64-gcc-g++
+2019/09/04 11:50:38 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/isl/libisl15/libisl15-0.16.1-1.tar.xz
+2019/09/04 11:50:38 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-core/mingw64-x86_64-gcc-core-7.4.0-1.tar.xz
+2019/09/04 11:50:40 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-g++/mingw64-x86_64-gcc-g++-7.4.0-1.tar.xz
+2019/09/04 11:50:42 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2019/09/04 11:50:59 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2019/09/04 11:51:00 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2019/09/04 11:51:21 note: Installation Complete
+2019/09/04 11:51:21 Ending cygwin install
+2019/09/04 11:51:53 Starting cygwin install, version 2.897
+2019/09/04 11:51:53 User has NO backup/restore rights
+2019/09/04 11:51:53 Current Directory: C:\Users\marcos.novalbos\Downloads
+2019/09/04 11:51:53 Could not open Service control manager
+2019/09/04 11:51:55 source: network install
+2019/09/04 11:51:56 root: C:\cygwin64 user
+2019/09/04 11:51:57 Selected local directory: C:\Users\marcos.novalbos\Downloads
+2019/09/04 11:51:58 net: Preconfig
+2019/09/04 11:51:59 site: http://cygwin.mirror.constant.com/
+2019/09/04 11:51:59 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst.sig
+2019/09/04 11:52:00 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst
+2019/09/04 11:52:01 solving: 0 tasks, update: yes, use test packages: no
+2019/09/04 11:52:51 solving: 4 tasks, update: no, use test packages: no
+2019/09/04 11:52:51 Augmented Transaction List:
+2019/09/04 11:52:51    0   erase                          mingw64-x86_64-gcc-g++             7.4.0-1
+2019/09/04 11:52:51    1   erase                         mingw64-x86_64-gcc-core             7.4.0-1
+2019/09/04 11:52:51    2 install                                        binutils              2.29-1
+2019/09/04 11:52:51    3 install                                    cygwin-devel             3.0.7-1
+2019/09/04 11:52:51    4 install                                      libatomic1             7.4.0-1
+2019/09/04 11:52:51    5 install                                        libgomp1             7.4.0-1
+2019/09/04 11:52:51    6 install                                    libquadmath0             7.4.0-1
+2019/09/04 11:52:51    7 install                                  w32api-headers             5.0.4-1
+2019/09/04 11:52:51    8 install                        windows-default-manifest               6.4-1
+2019/09/04 11:52:51    9 install                                  w32api-runtime             5.0.4-1
+2019/09/04 11:52:51   10 install                                        gcc-core             7.3.0-3
+2019/09/04 11:52:51   11 install                                         gcc-g++             7.3.0-3
+2019/09/04 11:52:58 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/binutils/binutils-2.29-1.tar.xz
+2019/09/04 11:52:58 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygwin/cygwin-devel/cygwin-devel-3.0.7-1.tar.xz
+2019/09/04 11:52:58 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libatomic1/libatomic1-7.4.0-1.tar.xz
+2019/09/04 11:52:58 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libgomp1/libgomp1-7.4.0-1.tar.xz
+2019/09/04 11:52:58 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libquadmath0/libquadmath0-7.4.0-1.tar.xz
+2019/09/04 11:52:59 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/w32api-headers/w32api-headers-5.0.4-1.tar.xz
+2019/09/04 11:52:59 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.4-1.tar.xz
+2019/09/04 11:52:59 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/w32api-runtime/w32api-runtime-5.0.4-1.tar.xz
+2019/09/04 11:53:00 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/gcc-core/gcc-core-7.3.0-3.tar.xz
+2019/09/04 11:53:00 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/gcc-g++/gcc-g++-7.3.0-3.tar.xz
+2019/09/04 11:53:00 Uninstalling mingw64-x86_64-gcc-g++
+2019/09/04 11:53:01 Uninstalling mingw64-x86_64-gcc-core
+2019/09/04 11:53:01 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/binutils/binutils-2.29-1.tar.xz
+2019/09/04 11:53:02 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygwin/cygwin-devel/cygwin-devel-3.0.7-1.tar.xz
+2019/09/04 11:53:02 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libatomic1/libatomic1-7.4.0-1.tar.xz
+2019/09/04 11:53:02 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libgomp1/libgomp1-7.4.0-1.tar.xz
+2019/09/04 11:53:02 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libquadmath0/libquadmath0-7.4.0-1.tar.xz
+2019/09/04 11:53:02 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/w32api-headers/w32api-headers-5.0.4-1.tar.xz
+2019/09/04 11:53:05 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.4-1.tar.xz
+2019/09/04 11:53:05 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/w32api-runtime/w32api-runtime-5.0.4-1.tar.xz
+2019/09/04 11:53:08 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/gcc-core/gcc-core-7.3.0-3.tar.xz
+2019/09/04 11:53:09 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/gcc-g++/gcc-g++-7.3.0-3.tar.xz
+2019/09/04 11:53:14 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2019/09/04 11:53:35 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2019/09/04 11:53:44 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2019/09/04 11:59:34 note: Installation Complete
+2019/09/04 11:59:34 Ending cygwin install
+2019/09/25 10:49:48 Starting cygwin install, version 2.897
+2019/09/25 10:49:48 User has NO backup/restore rights
+2019/09/25 10:49:48 Current Directory: C:\Users\marcos.novalbos\Downloads
+2019/09/25 10:49:49 Could not open Service control manager
+2019/09/25 10:49:54 source: network install
+2019/09/25 10:49:56 root: C:\cygwin64 user
+2019/09/25 10:49:58 Selected local directory: C:\Users\marcos.novalbos\Downloads
+2019/09/25 10:49:59 net: Preconfig
+2019/09/25 10:50:02 site: http://cygwin.mirror.constant.com/
+2019/09/25 10:50:02 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst.sig
+2019/09/25 10:50:02 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst
+2019/09/25 10:50:05 solving: 0 tasks, update: yes, use test packages: no
+2019/09/25 10:52:29 solving: 10 tasks, update: no, use test packages: no
+2019/09/25 10:52:29 Augmented Transaction List:
+2019/09/25 10:52:29    0 install                                        gcc-core             7.4.0-1
+2019/09/25 10:52:29    1   erase                                        gcc-core             7.3.0-3
+2019/09/25 10:52:29    2 install                                    libpipeline1             1.5.1-1
+2019/09/25 10:52:29    3   erase                                    libpipeline1             1.4.0-1
+2019/09/25 10:52:29    4 install                                       libssl1.0            1.0.2t-1
+2019/09/25 10:52:29    5   erase                                       libssl1.0            1.0.2s-1
+2019/09/25 10:52:29    6 install                                       libssl1.1            1.1.1d-1
+2019/09/25 10:52:29    7   erase                                       libssl1.1            1.1.1c-1
+2019/09/25 10:52:29    8 install                                          tzdata             2019c-1
+2019/09/25 10:52:29    9   erase                                          tzdata             2019b-1
+2019/09/25 10:52:29   10 install                                    libsqlite3_0            3.28.0-1
+2019/09/25 10:52:29   11 install                                python-pip-wheel            19.2.3-1
+2019/09/25 10:52:29   12 install                         python-setuptools-wheel            41.2.0-1
+2019/09/25 10:52:29   13 install                                     libpkgconf3             1.6.0-1
+2019/09/25 10:52:29   14 install                                         gcc-g++             7.4.0-1
+2019/09/25 10:52:29   15   erase                                         gcc-g++             7.3.0-3
+2019/09/25 10:52:29   16 install                                         openssl            1.1.1d-1
+2019/09/25 10:52:29   17   erase                                         openssl            1.1.1c-1
+2019/09/25 10:52:29   18 install                                        libcurl4            7.66.0-1
+2019/09/25 10:52:29   19   erase                                        libcurl4            7.65.3-1
+2019/09/25 10:52:29   20 install                                          tzcode             2019c-1
+2019/09/25 10:52:29   21   erase                                          tzcode             2019b-1
+2019/09/25 10:52:29   22 install                                         pkgconf             1.6.0-1
+2019/09/25 10:52:29   23 install                                      pkg-config             1.6.0-1
+2019/09/25 10:52:29   24 install                                   libuuid-devel            2.33.1-1
+2019/09/25 10:52:29   25 install                                        python27            2.7.16-1
+2019/09/25 10:52:29   26 install                                         python2            2.7.16-1
+2019/09/25 10:52:29   27 install                                             gdb             8.1.1-1
+2019/09/25 10:55:07 solving: 10 tasks, update: no, use test packages: no
+2019/09/25 10:55:07 Augmented Transaction List:
+2019/09/25 10:55:07    0 install                                        gcc-core             7.4.0-1
+2019/09/25 10:55:07    1   erase                                        gcc-core             7.3.0-3
+2019/09/25 10:55:07    2 install                                    libpipeline1             1.5.1-1
+2019/09/25 10:55:07    3   erase                                    libpipeline1             1.4.0-1
+2019/09/25 10:55:07    4 install                                       libssl1.0            1.0.2t-1
+2019/09/25 10:55:07    5   erase                                       libssl1.0            1.0.2s-1
+2019/09/25 10:55:07    6 install                                       libssl1.1            1.1.1d-1
+2019/09/25 10:55:07    7   erase                                       libssl1.1            1.1.1c-1
+2019/09/25 10:55:07    8 install                                          tzdata             2019c-1
+2019/09/25 10:55:07    9   erase                                          tzdata             2019b-1
+2019/09/25 10:55:07   10 install                                    libsqlite3_0            3.28.0-1
+2019/09/25 10:55:07   11 install                                python-pip-wheel            19.2.3-1
+2019/09/25 10:55:07   12 install                         python-setuptools-wheel            41.2.0-1
+2019/09/25 10:55:07   13 install                                     libpkgconf3             1.6.0-1
+2019/09/25 10:55:07   14 install                                         gcc-g++             7.4.0-1
+2019/09/25 10:55:07   15   erase                                         gcc-g++             7.3.0-3
+2019/09/25 10:55:07   16 install                                         openssl            1.1.1d-1
+2019/09/25 10:55:07   17   erase                                         openssl            1.1.1c-1
+2019/09/25 10:55:07   18 install                                        libcurl4            7.66.0-1
+2019/09/25 10:55:07   19   erase                                        libcurl4            7.65.3-1
+2019/09/25 10:55:07   20 install                                          tzcode             2019c-1
+2019/09/25 10:55:07   21   erase                                          tzcode             2019b-1
+2019/09/25 10:55:07   22 install                                         pkgconf             1.6.0-1
+2019/09/25 10:55:07   23 install                                      pkg-config             1.6.0-1
+2019/09/25 10:55:07   24 install                                   libuuid-devel            2.33.1-1
+2019/09/25 10:55:07   25 install                                        python27            2.7.16-1
+2019/09/25 10:55:07   26 install                                         python2            2.7.16-1
+2019/09/25 10:55:07   27 install                                             gdb             7.9.1-1
+2019/09/25 10:55:24 solving: 10 tasks, update: no, use test packages: no
+2019/09/25 10:55:24 Augmented Transaction List:
+2019/09/25 10:55:24    0 install                                        gcc-core             7.4.0-1
+2019/09/25 10:55:24    1   erase                                        gcc-core             7.3.0-3
+2019/09/25 10:55:24    2 install                                    libpipeline1             1.5.1-1
+2019/09/25 10:55:24    3   erase                                    libpipeline1             1.4.0-1
+2019/09/25 10:55:24    4 install                                       libssl1.0            1.0.2t-1
+2019/09/25 10:55:24    5   erase                                       libssl1.0            1.0.2s-1
+2019/09/25 10:55:24    6 install                                       libssl1.1            1.1.1d-1
+2019/09/25 10:55:24    7   erase                                       libssl1.1            1.1.1c-1
+2019/09/25 10:55:24    8 install                                          tzdata             2019c-1
+2019/09/25 10:55:24    9   erase                                          tzdata             2019b-1
+2019/09/25 10:55:24   10 install                                    libsqlite3_0            3.28.0-1
+2019/09/25 10:55:24   11 install                                python-pip-wheel            19.2.3-1
+2019/09/25 10:55:24   12 install                         python-setuptools-wheel            41.2.0-1
+2019/09/25 10:55:24   13 install                                     libpkgconf3             1.6.0-1
+2019/09/25 10:55:24   14 install                                         gcc-g++             7.4.0-1
+2019/09/25 10:55:24   15   erase                                         gcc-g++             7.3.0-3
+2019/09/25 10:55:24   16 install                                         openssl            1.1.1d-1
+2019/09/25 10:55:24   17   erase                                         openssl            1.1.1c-1
+2019/09/25 10:55:24   18 install                                        libcurl4            7.66.0-1
+2019/09/25 10:55:24   19   erase                                        libcurl4            7.65.3-1
+2019/09/25 10:55:24   20 install                                          tzcode             2019c-1
+2019/09/25 10:55:24   21   erase                                          tzcode             2019b-1
+2019/09/25 10:55:24   22 install                                         pkgconf             1.6.0-1
+2019/09/25 10:55:24   23 install                                      pkg-config             1.6.0-1
+2019/09/25 10:55:24   24 install                                   libuuid-devel            2.33.1-1
+2019/09/25 10:55:24   25 install                                        python27            2.7.16-1
+2019/09/25 10:55:24   26 install                                         python2            2.7.16-1
+2019/09/25 10:55:24   27 install                                             gdb             7.9.1-1
+2019/09/25 10:55:45 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/gcc-core/gcc-core-7.4.0-1.tar.xz
+2019/09/25 10:55:45 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.1-1.tar.xz
+2019/09/25 10:55:45 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl10/libssl1.0/libssl1.0-1.0.2t-1.tar.xz
+2019/09/25 10:55:45 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1d-1.tar.xz
+2019/09/25 10:55:45 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/tzdata/tzdata-2019c-1.tar.xz
+2019/09/25 10:55:45 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/sqlite3/libsqlite3_0/libsqlite3_0-3.28.0-1.tar.xz
+2019/09/25 10:55:46 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/python-pip/python-pip-wheel/python-pip-wheel-19.2.3-1.tar.xz
+2019/09/25 10:55:46 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/python-setuptools/python-setuptools-wheel/python-setuptools-wheel-41.2.0-1.tar.xz
+2019/09/25 10:55:46 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pkgconf/libpkgconf3/libpkgconf3-1.6.0-1.tar.xz
+2019/09/25 10:55:47 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/gcc-g++/gcc-g++-7.4.0-1.tar.xz
+2019/09/25 10:55:47 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/openssl-1.1.1d-1.tar.xz
+2019/09/25 10:55:47 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/curl/libcurl4/libcurl4-7.66.0-1.tar.xz
+2019/09/25 10:55:47 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tzcode/tzcode-2019c-1.tar.xz
+2019/09/25 10:55:47 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pkgconf/pkgconf-1.6.0-1.tar.xz
+2019/09/25 10:55:47 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pkgconf/pkg-config/pkg-config-1.6.0-1.tar.xz
+2019/09/25 10:55:47 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libuuid-devel/libuuid-devel-2.33.1-1.tar.xz
+2019/09/25 10:55:48 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python2/python27/python27-2.7.16-1.tar.xz
+2019/09/25 10:55:48 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python2/python2-2.7.16-1.tar.xz
+2019/09/25 10:55:48 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdb/gdb-7.9.1-1.tar.xz
+2019/09/25 10:55:48 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/preremove/openssl.sh"
+2019/09/25 10:55:49 Uninstalling gcc-core
+2019/09/25 10:55:49 Uninstalling libpipeline1
+2019/09/25 10:55:49 Uninstalling libssl1.0
+2019/09/25 10:55:50 Uninstalling libssl1.1
+2019/09/25 10:55:50 Uninstalling tzdata
+2019/09/25 10:55:51 Uninstalling gcc-g++
+2019/09/25 10:55:52 Uninstalling openssl
+2019/09/25 10:55:52 Uninstalling libcurl4
+2019/09/25 10:55:52 Uninstalling tzcode
+2019/09/25 10:55:52 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/gcc-core/gcc-core-7.4.0-1.tar.xz
+2019/09/25 10:55:54 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.1-1.tar.xz
+2019/09/25 10:55:54 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl10/libssl1.0/libssl1.0-1.0.2t-1.tar.xz
+2019/09/25 10:55:54 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1d-1.tar.xz
+2019/09/25 10:55:54 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/tzdata/tzdata-2019c-1.tar.xz
+2019/09/25 10:55:59 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/sqlite3/libsqlite3_0/libsqlite3_0-3.28.0-1.tar.xz
+2019/09/25 10:55:59 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/python-pip/python-pip-wheel/python-pip-wheel-19.2.3-1.tar.xz
+2019/09/25 10:55:59 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/python-setuptools/python-setuptools-wheel/python-setuptools-wheel-41.2.0-1.tar.xz
+2019/09/25 10:55:59 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pkgconf/libpkgconf3/libpkgconf3-1.6.0-1.tar.xz
+2019/09/25 10:55:59 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/gcc-g++/gcc-g++-7.4.0-1.tar.xz
+2019/09/25 10:56:01 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/openssl-1.1.1d-1.tar.xz
+2019/09/25 10:56:02 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/curl/libcurl4/libcurl4-7.66.0-1.tar.xz
+2019/09/25 10:56:02 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tzcode/tzcode-2019c-1.tar.xz
+2019/09/25 10:56:02 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pkgconf/pkgconf-1.6.0-1.tar.xz
+2019/09/25 10:56:02 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pkgconf/pkg-config/pkg-config-1.6.0-1.tar.xz
+2019/09/25 10:56:02 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libuuid-devel/libuuid-devel-2.33.1-1.tar.xz
+2019/09/25 10:56:02 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python2/python27/python27-2.7.16-1.tar.xz
+2019/09/25 10:56:08 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python2/python2-2.7.16-1.tar.xz
+2019/09/25 10:56:08 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdb/gdb-7.9.1-1.tar.xz
+2019/09/25 10:56:08 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2019/09/25 10:56:41 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2019/09/25 10:56:54 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssl.sh"
+2019/09/25 10:56:55 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssl10.sh"
+2019/09/25 10:56:55 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2019/09/25 10:59:19 note: Installation Complete
+2019/09/25 10:59:19 Ending cygwin install
+2019/10/02 14:59:41 Starting cygwin install, version 2.897
+2019/10/02 14:59:41 User has NO backup/restore rights
+2019/10/02 14:59:41 Current Directory: C:\Users\marcos.novalbos\Downloads
+2019/10/02 14:59:41 Could not open Service control manager
+2019/10/02 14:59:44 source: network install
+2019/10/02 14:59:46 root: C:\cygwin64 user
+2019/10/02 14:59:46 Selected local directory: C:\Users\marcos.novalbos\Downloads
+2019/10/02 14:59:47 net: Preconfig
+2019/10/02 14:59:49 site: http://cygwin.mirror.constant.com/
+2019/10/02 14:59:50 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst.sig
+2019/10/02 14:59:50 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst
+2019/10/02 14:59:53 solving: 0 tasks, update: yes, use test packages: no
+2019/10/02 15:00:07 solving: 6 tasks, update: no, use test packages: no
+2019/10/02 15:00:07 Augmented Transaction List:
+2019/10/02 15:00:07    0 install                                             gdb             8.1.1-1
+2019/10/02 15:00:07    1   erase                                             gdb             7.9.1-1
+2019/10/02 15:00:07    2 install                                            info               6.7-1
+2019/10/02 15:00:07    3   erase                                            info               6.6-1
+2019/10/02 15:00:07    4 install                                          mintty             3.0.5-1
+2019/10/02 15:00:07    5   erase                                          mintty             3.0.2-1
+2019/10/02 15:00:07    6 install                                            nano             2.8.7-1
+2019/10/02 15:00:07    7 install                          perl-Unicode-Normalize              1.25-2
+2019/10/02 15:00:07    8 install                                         texinfo               6.7-1
+2019/10/02 15:00:07    9   erase                                         texinfo               6.6-1
+2019/10/02 15:00:14 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdb/gdb-8.1.1-1.tar.xz
+2019/10/02 15:00:14 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/info/info-6.7-1.tar.xz
+2019/10/02 15:00:14 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mintty/mintty-3.0.5-1.tar.xz
+2019/10/02 15:00:14 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/nano/nano-2.8.7-1.tar.xz
+2019/10/02 15:00:14 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl-Unicode-Normalize/perl-Unicode-Normalize-1.25-2.tar.xz
+2019/10/02 15:00:15 Downloaded C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/texinfo-6.7-1.tar.xz
+2019/10/02 15:00:15 Uninstalling gdb
+2019/10/02 15:00:15 Uninstalling info
+2019/10/02 15:00:15 Uninstalling mintty
+2019/10/02 15:00:15 Uninstalling texinfo
+2019/10/02 15:00:16 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdb/gdb-8.1.1-1.tar.xz
+2019/10/02 15:00:16 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/info/info-6.7-1.tar.xz
+2019/10/02 15:00:16 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mintty/mintty-3.0.5-1.tar.xz
+2019/10/02 15:00:16 io_stream_cygfile: fopen(/usr/bin/mintty.exe) failed 13 Permission denied
+2019/10/02 15:00:16 Failed to open cygfile:///usr/bin/mintty.exe for writing.
+2019/10/02 15:00:23 running: C:\cygwin64\bin\kill.exe -TERM -W 8244
+2019/10/02 15:00:25 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/nano/nano-2.8.7-1.tar.xz
+2019/10/02 15:00:25 Extracting from file://C:\Users\marcos.novalbos\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/texinfo-6.7-1.tar.xz
+2019/10/02 15:00:26 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2019/10/02 15:01:11 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2019/10/02 15:01:25 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2019/10/02 15:01:25 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2019/10/02 15:02:20 note: Installation Complete
+2019/10/02 15:02:20 Ending cygwin install
