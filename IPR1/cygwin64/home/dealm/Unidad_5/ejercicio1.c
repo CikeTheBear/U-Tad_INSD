@@ -2,6 +2,27 @@
 
 
 
+//Constantes
+
+#define TAM = 15
+
+
+
+//Prototipos de funciones
+
+int leerCadena (char cadena[], int tam);
+
+int generaPassword(char cadena[]);
+
+int cadena2Mayusculas(char cadena[]);
+
+int cadenasIguales(char cadena1[], char cadena2[]);
+
+int tamCadena (char cadena[]);
+
+
+
+//Función principal
 
 int main() {
 	
@@ -20,18 +41,31 @@ int main() {
 	
 	printf("%d", opcion);
 	
-	
-	
-	
-	
-	
-	
-	
-	
 }
 
 
 
+//Definición de funciones
+
+int leerCadena (char cadena[], int tam) {
+	
+}
+
+int generaPassword(char cadena[]) {
+
+}
+
+int cadena2Mayusculas(char cadena[]) {
+
+}
+
+int cadenasIguales(char cadena1[], char cadena2[]) {
+
+}
+
+int tamCadena (char cadena[]) {
+
+}
 
 
 
