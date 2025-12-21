@@ -1,0 +1,204 @@
+/*
+Carlos De Almeida
+Unidad 5 - Pseudocodigo - Ejercicio 1
+*/
+
+
+
+// --- Constantes ---
+
+MAXIMO = 50
+
+MIN_LONGITUD = 8
+
+MAX_LONGITUD = 15
+
+
+
+// --- Inicio del Programa Principal ---
+
+    Definir variables:
+
+    password: Texto (para guardar la clave real)
+
+    intento: Texto (para guardar lo que el usuario escribe)
+
+    opcion: Entero (para el menú)
+
+    passwordValido: Falso (para saber si ya existe una clave)
+
+
+
+    Repetir (Ciclo del Menú):
+
+    Mostrar "=== MENU ==="
+
+    Si passwordValido es Falso:
+
+    Mostrar "1. Genera un password"
+
+    Sino (es Verdadero):
+
+    Mostrar "1. Cambiar tu password"
+
+    Mostrar "2. Introduce tu password"
+
+    Mostrar "3. Salir"
+
+    Solicitar opcion al usuario
+
+    Llamar a LimpiarBuffer (para borrar el "Enter" sobrante)
+
+
+
+    Switch de opcion:
+
+    Caso 1:
+
+        Mientras la función GenerarPassword(password) devuelva Falso:
+
+        (El programa sigue preguntando dentro de la función y no sale de aquí hasta que sea válido)
+
+        Mostrar "Password generado correctamente"
+
+        Marcar passwordValido como Verdadero
+
+    Caso 2:
+
+        Si passwordValido es Falso:
+
+        Mostrar "Primero debes generar un password válido"
+
+        Sino:
+
+        Mostrar "Introduce tu password:"
+
+        Llamar a LeerCadena(intento)
+
+        Si CadenasIguales(password, intento) es Verdadero:
+
+        Mostrar "Acceso concedido"
+
+        Sino:
+
+        Mostrar "Acceso denegado"
+
+    Caso 3:
+
+        Mostrar "Saliendo del programa"
+
+    Caso default:
+
+        Mostrar "Opción inválida"
+
+    Hasta que opcion sea igual a 3
+
+// --- Fin del Programa Principal ---
+
+
+
+// --- Definición de funciones ---
+
+Función: LeerCadena (Recibe: variable donde guardar, tamaño máximo)
+
+    Leer el primer carácter c
+
+    Iniciar contador i en 0
+
+    Mientras c no sea "Enter" Y i sea menor que el límite:
+
+    Guardar c en la posición i
+
+    Aumentar i
+
+    Leer el siguiente carácter c
+
+    Poner marca de fin de texto (\0) en la posición i
+
+    Si el último carácter c NO era un "Enter" (significa que sobraron letras):
+
+    Llamar a LimpiarBuffer
+
+    Devolver i (cantidad de letras leídas)
+
+
+
+Función: GenerarPassword (Recibe: variable destino)
+
+    Crear variable temporal
+
+    Mostrar "Introduce password (8-15 caracteres, 2 mayúsculas)"
+
+    Llamar a LeerCadena(temporal)
+
+    Calcular longitud usando TamCadena(temporal)
+
+    Si longitud < 8 O longitud > 15:
+
+    Mostrar Error de longitud
+
+    Devolver Falso (0)
+
+    Si Cadena2Mayusculas(temporal) devuelve Falso:
+
+    Mostrar Error de mayúsculas
+
+    Devolver Falso (0)
+
+    Copiar letra por letra de temporal a destino
+
+    Devolver Verdadero (1)
+
+
+
+Función: Cadena2Mayusculas (Recibe: texto)
+
+    Iniciar contador en 0
+
+    Recorrer cada letra del texto:
+
+    Si la letra está entre 'A' y 'Z':
+
+    Aumentar contador
+
+    Si contador >= 2
+        
+    Devolver Verdadero
+        
+    Sino
+
+    Devolver Falso.
+
+
+
+Función: CadenasIguales (Recibe: texto1, texto2)
+
+    Recorrer ambas cadenas al mismo tiempo:
+
+    Si las letras en la misma posición son diferentes:
+
+    Devolver Falso (0) inmediatamente
+
+    Si ambas cadenas terminaron al mismo tiempo:
+
+    Devolver Verdadero (1)
+
+    Sino:
+
+    Devolver Falso (0)
+
+
+
+Función: TamCadena (Recibe: texto)
+
+    Iniciar contador en 0
+
+    Recorrer el texto hasta encontrar el final
+
+    Devolver el total contado
+
+
+
+Función: LimpiarBuffer
+
+    Leer caracteres del teclado y descartarlos mientras no sea "Enter".
