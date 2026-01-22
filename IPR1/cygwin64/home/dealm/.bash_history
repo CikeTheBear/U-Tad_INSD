@@ -57,3 +57,13 @@ gcc Ejercicio2.c -o Ejercicio2.exe && ./Ejercicio2.exe
 gcc Ejercicio2.c -o Ejercicio2.exe && ./Ejercicio2.exe
 gcc Ejercicio2.c -o Ejercicio2.exe && ./Ejercicio2.exe
 exit
+clear
+quit
+exit
+ls
+cd Unidad_6
+ls
+clear
+whoami
+clear
+exit
