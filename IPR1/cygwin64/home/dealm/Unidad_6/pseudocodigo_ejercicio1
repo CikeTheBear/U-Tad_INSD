@@ -1,0 +1,103 @@
+/*
+Carlos De Almeida
+Unidad 6 - Pseudocodigo - Ejercicio 1
+*/
+
+
+
+// --- Constantes ---
+
+MAX_ALUMNOS = 20
+MAX_NOMBRE = 30
+ASIGNATURAS = 3
+
+
+
+// --- Inicio del Programa Principal ---
+
+    Definir variables:
+    numEstudiantes: Entero
+    nombres: Matriz de Texto (Dimensiones: MAX_ALUMNOS x MAX_NOMBRE)
+    notas: Matriz de Reales (Dimensiones: MAX_ALUMNOS x ASIGNATURAS)
+    mejorPromedioValor: Real (iniciado en 0.0)
+    indiceMejorAlumno: Entero
+    i: Entero
+
+    Repetir (Validación de entrada):
+        Mostrar "Ingrese el número de estudiantes (máximo 20):"
+        Solicitar numEstudiantes
+        Llamar a LimpiarBuffer
+
+        Si numEstudiantes < 1 O numEstudiantes > MAX_ALUMNOS:
+            Mostrar "Número inválido. Vuelve a intentarlo."
+    Hasta que numEstudiantes >= 1 Y numEstudiantes <= MAX_ALUMNOS
+
+    // Lectura de Nombres
+    Para i desde 0 hasta numEstudiantes - 1:
+        Mostrar "Nombre del estudiante " + (i + 1)
+        Llamar a LeeCadena(nombres[i], MAX_NOMBRE)
+
+    // Lectura de Notas
+    Llamar a IngresarNotas(nombres, notas, numEstudiantes, ASIGNATURAS)
+
+    // Cálculo
+    Asignar a indiceMejorAlumno el resultado de CalcularMejorPromedio(notas, numEstudiantes, ASIGNATURAS, mejorPromedioValor)
+
+    // Mostrar Resultados
+    Mostrar "--- RESULTADO ---"
+    Mostrar "El mejor alumno es: " + nombres[indiceMejorAlumno]
+    Mostrar "Con un promedio de: " + mejorPromedioValor
+    Mostrar "Sus notas son:"
+    Mostrar "IPR1: " + notas[indiceMejorAlumno][0]
+    Mostrar "LMDI: " + notas[indiceMejorAlumno][1]
+    Mostrar "LRSO: " + notas[indiceMejorAlumno][2]
+
+// --- Fin del Programa Principal ---
+
+
+
+// --- Definición de funciones ---
+
+Función: LeeCadena (Recibe: variable destino, tamaño máximo)
+    Leer carácter c
+    Iniciar contador i en 0
+    Mientras c no sea "Enter" Y c no sea FinDeArchivo:
+        Si i < tamaño máximo - 1:
+            Guardar c en la posición i de destino
+            Aumentar i
+        Leer siguiente carácter c
+    
+    Poner marca de fin de texto (\0) en la posición i
+
+Función: IngresarNotas (Recibe: nombres, notas, cantidadAlumnos, cantidadAsignaturas)
+    Definir materias como ["IPR1", "LMDI", "LRSO"]
+    Para i desde 0 hasta cantidadAlumnos - 1:
+        Para j desde 0 hasta cantidadAsignaturas - 1:
+            Mostrar "Ingrese nota de " + materias[j] + " para " + nombres[i]
+            Solicitar valor y guardar en notas[i][j]
+
+Función: CalcularMejorPromedio (Recibe: notas, cantidadAlumnos, cantidadAsignaturas, referencia a promedioRecord)
+    Definir variables:
+        indiceGanador: Entero (iniciado en 0)
+        maxPromedio: Real (iniciado en -1.0)
+        suma: Real
+        promedioActual: Real
+
+    Para i desde 0 hasta cantidadAlumnos - 1:
+        suma = 0
+        Para j desde 0 hasta cantidadAsignaturas - 1:
+            suma = suma + notas[i][j]
+        
+        promedioActual = suma / cantidadAsignaturas
+
+        Si promedioActual > maxPromedio:
+            maxPromedio = promedioActual
+            indiceGanador = i
+    
+    // Actualizar el valor fuera de la función (Paso por referencia)
+    Guardar maxPromedio en la variable referenciada promedioRecord
+    
+    Devolver indiceGanador
+
+Función: LimpiarBuffer
+    Leer caracteres del teclado y descartarlos mientras no sea "Enter".

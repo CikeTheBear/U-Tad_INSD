@@ -1,0 +1,104 @@
+/*
+Carlos De Almeida
+Unidad 6 - Pseudocodigo - Ejercicio 2
+*/
+
+
+
+// --- Constantes ---
+
+LONGITUD_MAX = 10
+
+
+
+// --- Inicio del Programa Principal ---
+
+    Definir variables:
+    cola: Arreglo de Enteros (Tamaño: LONGITUD_MAX)
+    longitud: Entero (iniciado en 0)
+    opcion: Entero
+    valor: Entero
+    resultado: Entero
+
+    Llamar a InicializarArray(cola, LONGITUD_MAX)
+
+    Repetir (Ciclo del Menú):
+        Llamar a MostrarArray(cola, longitud)
+        Asignar a opcion el resultado de MostrarMenuConResultado()
+
+        Switch de opcion:
+            Caso 1 (Encolar):
+                Mostrar "Introduzca un valor entero a encolar:"
+                Solicitar valor
+                Llamar a Encolar(cola, longitud, LONGITUD_MAX, valor)
+            
+            Caso 2 (Desencolar):
+                Asignar a resultado el valor de Desencolar(cola, longitud)
+                Si resultado es diferente de -1:
+                    Mostrar "Valor desencolado: " + resultado
+                    Mostrar "Longitud de la cola: " + longitud
+            
+            Caso 3 (Salir):
+                Mostrar "Saliendo del programa."
+            
+            Caso default:
+                Mostrar "Opción no válida."
+        
+        Mostrar Salto de Linea
+
+    Hasta que opcion sea igual a 3
+
+// --- Fin del Programa Principal ---
+
+
+
+// --- Definición de funciones ---
+
+Función: MostrarMenuConResultado (No recibe parámetros)
+    Definir variable opc
+    Mostrar "Prueba de funcionamiento de la cola."
+    Mostrar "1. Encolar"
+    Mostrar "2. Desencolar"
+    Mostrar "3. Salir"
+    Mostrar "Introducir opcion:"
+    Solicitar opc
+    Devolver opc
+
+Función: Encolar (Recibe: cola, referencia a longitud, maxLargo, valor)
+    Si valor de longitud >= maxLargo:
+        Mostrar "Error: La cola está llena (Overflow)"
+    Sino:
+        Guardar valor en cola[longitud]
+        Aumentar valor de longitud en 1
+        Mostrar "Encolado el valor " + valor
+        Mostrar "Longitud de la cola: " + longitud
+
+Función: Desencolar (Recibe: cola, referencia a longitud)
+    Si valor de longitud == 0:
+        Mostrar "Error: La cola está vacía (Underflow)"
+        Devolver -1
+    Sino:
+        Definir elementoRetorno = cola[0]
+        
+        // Mover todos los elementos una posición a la izquierda
+        Para i desde 0 hasta longitud - 2:
+            cola[i] = cola[i + 1]
+        
+        // Limpieza estética (opcional)
+        cola[longitud - 1] = 0
+        
+        Disminuir valor de longitud en 1
+        Devolver elementoRetorno
+
+Función: InicializarArray (Recibe: array, largo)
+    Para i desde 0 hasta largo - 1:
+        array[i] = 0
+
+Función: MostrarArray (Recibe: array, longitudActual)
+    Mostrar "[ESTADO COLA]: | " sin salto de línea
+    Para i desde 0 hasta LONGITUD_MAX - 1:
+        Si i < longitudActual:
+            Mostrar array[i] + " | " sin salto de línea
+        Sino:
+            Mostrar "  | " sin salto de línea
+    Mostrar Salto de Linea
