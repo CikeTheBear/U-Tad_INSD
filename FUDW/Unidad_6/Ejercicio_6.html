@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Hábitos Digitales</title>
+    <link rel="stylesheet" href="Ejercicio_6.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Hábitos Digitales y Bienestar</h1>
+    
+    <form id="encuestaForm" onsubmit="procesarFormulario(event)">
+        
+        <fieldset>
+            <legend>Datos Personales</legend>
+            
+            <div class="form-group">
+                <label for="nombre">1. Nombre y Apellidos:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Carlos De Almeida" required>
+            </div>
+
+            <div class="form-group">
+                <label for="edad">2. Edad:</label>
+                <input type="number" id="edad" name="edad" min="10" max="99" placeholder="Entre 10 y 99" required>
+            </div>
+
+            <div class="form-group">
+                <label for="provinciaNac">3. Provincia de nacimiento:</label>
+                <input type="text" id="provinciaNac" name="provinciaNac" required>
+            </div>
+
+            <div class="form-group">
+                <label for="provinciaRes">8. Provincia de residencia:</label>
+                <select id="provinciaRes" name="provinciaRes" required>
+                    <option value="">-- Selecciona una --</option>
+                    <option value="madrid">Madrid</option>
+                    <option value="barcelona">Barcelona</option>
+                    <option value="valencia">Valencia</option>
+                    <option value="sevilla">Sevilla</option>
+                    <option value="otra">Otra</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Hábitos Tecnológicos</legend>
+
+            <div class="form-group">
+                <label for="horasPC">4. ¿Cuántas horas usas el ordenador al día?</label>
+                <input type="number" id="horasPC" name="horasPC" min="0" max="24" required>
+            </div>
+
+            <div class="form-group">
+                <label>5. ¿Usas el móvil antes de dormir?</label>
+                <div class="inline-options">
+                    <label><input type="radio" name="movilDormir" value="si" required> Sí</label>
+                    <label><input type="radio" name="movilDormir" value="no"> No</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>6. ¿Qué redes sociales utilizas? (Selecciona todas las que apliquen)</label>
+                <div class="inline-options">
+                    <label><input type="checkbox" name="redes" value="instagram"> Instagram</label>
+                    <label><input type="checkbox" name="redes" value="tiktok"> TikTok</label>
+                    <label><input type="checkbox" name="redes" value="twitter"> X (Twitter)</label>
+                    <label><input type="checkbox" name="redes" value="facebook"> Facebook</label>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Bienestar Digital</legend>
+
+            <div class="form-group">
+                <label for="estres">7. Nivel de estrés digital percibido (1 = Bajo, 5 = Alto):</label>
+                <select id="estres" name="estres" required>
+                    <option value="">Seleccionar</option>
+                    <option value="1">1 - Muy bajo</option>
+                    <option value="2">2 - Bajo</option>
+                    <option value="3">3 - Medio</option>
+                    <option value="4">4 - Alto</option>
+                    <option value="5">5 - Muy alto</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="problemas">9. ¿Has tenido problemas por uso excesivo? (Detalla brevemente):</label>
+                <textarea id="problemas" name="problemas" rows="3" placeholder="Insomnio, vista cansada, ansiedad..."></textarea>
+            </div>
+        </fieldset>
+
+        <button type="submit" class="btn-submit">Enviar Encuesta</button>
+    </form>
+
+    <div id="resultado"></div>
+</div>
+
+<script>
+    function procesarFormulario(event) {
+        event.preventDefault();
+
+        const form = document.getElementById('encuestaForm');
+        
+        if (!form.checkValidity()) {
+            alert("Por favor, rellena todos los campos correctamente antes de enviar.");
+            return;
+        }
+
+        const horasPC = parseInt(document.getElementById('horasPC').value) || 0;
+        
+        const movilDormir = document.querySelector('input[name="movilDormir"]:checked').value;
+        
+        const redesSeleccionadas = document.querySelectorAll('input[name="redes"]:checked').length;
+
+        let puntuacionIAT = horasPC;
+        
+        if (movilDormir === 'si') {
+            puntuacionIAT += 5;
+        }
+        
+        puntuacionIAT += (redesSeleccionadas * 2);
+
+        mostrarResultado(puntuacionIAT);
+
+        alert("Formulario enviado correctamente");
+    }
+
+    function mostrarResultado(puntuacion) {
+        const resultadoDiv = document.getElementById('resultado');
+        let mensaje = "";
+        let clase = "";
+
+        if (puntuacion < 10) {
+            mensaje = `Tu IAT es ${puntuacion}. Tienes un <strong>buen equilibrio digital</strong>. ¡Sigue así!`;
+            clase = "nivel-bajo";
+        } else if (puntuacion >= 10 && puntuacion < 20) {
+            mensaje = `Tu IAT es ${puntuacion}. Tu uso es <strong>moderado</strong>. Intenta reducir pantallas antes de dormir.`;
+            clase = "nivel-medio";
+        } else {
+            mensaje = `Tu IAT es ${puntuacion}. Tienes un <strong>nivel alto</strong> de dependencia. Considera hacer un "detox" digital.`;
+            clase = "nivel-alto";
+        }
+
+        resultadoDiv.className = clase;
+        resultadoDiv.innerHTML = mensaje;
+        resultadoDiv.style.display = 'block';
+        
+        resultadoDiv.scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>
